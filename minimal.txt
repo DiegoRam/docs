@@ -1,0 +1,12635 @@
+URL: https://docs.minimals.cc/figma/
+Figma | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Figma
+
+
+Basic instructions for using Figma resources.
+
+
+
+
+
+
+Install:
+ 
+https://youtu.be/mjMpdvMMPDs
+
+
+Change color and typography:
+ 
+https://youtu.be/NvfAODqWkFQ
+
+
+Change mode:
+ 
+https://youtu.be/e8uaVwfBAL0
+
+
+Change primary color:
+ 
+https://youtu.be/ksGpHGUUklA
+
+
+
+
+
+
+Note:
+
+
+
+
+You will receive resources in .zip format so to use 
+DEV MODE
+ you need to upgrade your account.
+
+
+Learn more 
+Figma plans
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/subfolder/
+Subfolder | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Subfolder
+
+
+Applicable from 
+v6.1.0
+ and above.
+
+
+
+
+Vite.js
+.env
+VITE_ASSETS_DIR
+=/
+sub
+vite.config.ts
+export
+ default
+ defineConfig
+({
+
+
+  base
+: 
+'/sub/'
+,
+
+
+  ...
+
+
+});
+src/main.tsx
+<
+BrowserRouter
+ basename
+=
+"sub"
+>
+
+
+  ...
+
+
+</
+BrowserRouter
+>
+
+
+
+
+Next.js
+.env
+NEXT_PUBLIC_ASSETS_DIR
+=/
+sub
+next.config.mjs
+const
+ nextConfig
+ =
+ {
+
+
+  basePath
+: 
+'/sub'
+,
+
+
+  ...
+
+
+};
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/navigation/
+Navigation | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Navigation
+
+
+Instructions to change the default menu to multiple menus.
+
+
+
+
+Watch video
+
+
+
+
+Results:
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/migrate-to-cra/
+Migrate to CRA | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Migrate to CRA
+
+
+Migrate Vite.js instance to CRA (create-react-app)
+
+
+(CRA) create-react-app has not been maintained for a long time.
+ Migrating to vite.js or next.js is (recommended)
+If you want to use CRA version please check here
+ 
+migrate to CRA
+ 
+Learn more:
+ 
+https://github.com/reactjs/react.dev/pull/5487
+
+
+
+
+Step 1:
+
+
+Please do not 
+delete/edit
+ any files before running the command.
+
+
+Used in the root directory.
+
+
+Example:
+Minimal_Typescript
+
+
+  ├─
+ vite-ts
+
+
+  ├─
+ starter-vite-ts
+cd
+ vite-ts
+
+
+# OR
+
+
+cd
+ starter-vite-ts
+
+
+Step 2:
+In folder 
+vite-ts
+ / 
+starter-vite-ts
+.
+Minimal UI 
+v6.2.0
+npx 
+[email protected]
+Minimal UI 
+v6.0.0
+ | 
+v6.0.1
+ | 
+v6.1.0
+npx 
+[email protected]
+Minimal UI 
+v5
+npx 
+[email protected]
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/shadows/
+Shadows | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Shadows
+
+
+Latest
+v5
+
+
+
+
+Custom 
+shadows
+ inside 
+src/theme/core/shadows
+
+
+Custom 
+customShadows
+ inside 
+src/theme/core/customShadows
+
+
+
+
+
+
+Reference:
+
+
+
+
+https://minimals.cc/components/foundation/shadows
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/structure/
+Structure & Flow | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Structure
+
+
+
+
+root
+
+
+  ├──
+ public
+
+
+  ├──
+ src
+
+
+      ├──
+ types
+
+
+      ├──
+ assets
+
+
+      ├──
+ components
+
+
+      ├──
+ pages
+ OR
+ app
+
+
+      ├──
+ hooks
+
+
+      ├──
+ layouts
+
+
+      ├──
+ sections
+
+
+      ├──
+ theme
+
+
+      ├──
+ utils
+
+
+      ├──
+ routes
+
+
+      ├──
+ ...
+
+
+  ├──
+ next.config.js
+
+
+  ├──
+ package.json
+
+
+  ├──
+ ...
+
+
+
+
+Remove & Clean
+Depending on the needs of each project, there will be components that are not needed.
+Below is the order of precedence for deleting components:
+
+
+Step 1:
+Delete unused pages in 
+/pages
+or 
+/app
+.
+Example: delete 
+src/pages/contact-us.tsx
+.
+
+
+Step 2:
+Create file 
+knip.jsonc
+knip.jsonc
+{
+
+
+  "$schema"
+: 
+"https://unpkg.com/knip@5/schema-jsonc.json"
+,
+
+
+  "paths"
+: {
+
+
+    "src/*"
+: [
+"./src/*"
+],
+
+
+  },
+
+
+  "project"
+: [
+"src/**/*.{js,cjs,mjs,jsx,ts,cts,mts,tsx}"
+],
+
+
+  "ignoreExportsUsedInFile"
+: 
+true
+,
+
+
+  "ignoreDependencies"
+: [
+
+
+    // ignore dependencies
+
+
+    "@fontsource.+"
+,
+
+
+  ],
+
+
+  "ignore"
+: [
+
+
+    // ignore folders or files
+
+
+    "src/_mock/**"
+,
+
+
+  ],
+
+
+}
+
+
+ 
+
+
+Step 3:
+Find and delete related files.
+Run:
+npx knip
+Result:
+Unused dependencies (10)
+
+
+@
+emotion/styled               package.json
+
+
+@
+fullcalendar/core            package.json
+
+
+@
+tiptap/core                  package.json
+
+
+@
+tiptap/extension-code-block  package.json
+
+
+@
+tiptap/pm                    package.json
+
+
+apexcharts                    package.json
+
+
+embla-carousel                package.json
+
+
+mapbox-gl                     package.json
+
+
+react-dom                     package.json
+
+
+stylis                        package.json
+
+
+Unused devDependencies (1)
+
+
+eslint  package.json
+
+
+Unlisted binaries (3)
+
+
+eslint    package.json
+
+
+next      package.json
+
+
+prettier  package.json
+
+
+Configuration hints (3)
+
+
+
+
+Reference:
+
+
+
+
+https://knip.dev/overview/getting-started
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/logo/
+Logo | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Logo
+
+
+Latest
+v5
+
+
+
+
+Change logo in 
+src/components/logo
+.
+
+
+Change favicon in 
+public/favicon.ico
+.
+
+
+
+
+
+
+Change favicon
+
+
+Upload logo in 
+https://favicon.io/favicon-converter/
+.
+
+
+Download the resource and unzip.
+
+
+Copy and overwrite to folder 
+public/favicon.ico
+.
+
+
+Next.js
+Vite.js
+// src/app/layout.(jsx | tsx)
+
+
+ 
+
+
+export
+ const
+ metadata
+: 
+Metadata
+ =
+ {
+
+
+  icons
+: [
+
+
+    { 
+rel
+: 
+'icon'
+, 
+url
+: 
+'/favicon.ico'
+, },
+
+
+  ],
+
+
+};
+
+
+
+
+Change logo (image)
+Use from 
+public
+ folder
+const
+ logo
+ =
+ (
+
+
+  <
+Box
+ alt
+=
+"logo"
+ component
+=
+"img"
+ src
+=
+{
+`/logo/logo-single.svg`
+}
+ width
+=
+{
+width
+}
+ height
+=
+{
+height
+}
+ />
+
+
+);
+src/components/logo/logo
+
+
+
+
+Change logo (svg)
+Use with svg
+const
+ logo
+ =
+ (
+
+
+  <
+svg
+ xmlns
+=
+"http://www.w3.org/2000/svg"
+ width
+=
+"100%"
+ height
+=
+"100%"
+ viewBox
+=
+"0 0 512 512"
+>
+
+
+    <
+defs
+>
+
+
+      <
+linearGradient
+ id
+=
+{
+`
+${
+gradientId
+}
+-1`
+}
+ x1
+=
+"100%"
+ x2
+=
+"50%"
+ y1
+=
+"9.946%"
+ y2
+=
+"50%"
+>
+
+
+        <
+stop
+ offset
+=
+"0%"
+ stopColor
+=
+{
+PRIMARY_DARK
+}
+ />
+
+
+        <
+stop
+ offset
+=
+"100%"
+ stopColor
+=
+{
+PRIMARY_MAIN
+}
+ />
+
+
+      </
+linearGradient
+>
+
+
+ 
+
+
+      <
+linearGradient
+ id
+=
+{
+`
+${
+gradientId
+}
+-2`
+}
+ x1
+=
+"50%"
+ x2
+=
+"50%"
+ y1
+=
+"0%"
+ y2
+=
+"100%"
+>
+
+
+        <
+stop
+ offset
+=
+"0%"
+ stopColor
+=
+{
+PRIMARY_LIGHT
+}
+ />
+
+
+        <
+stop
+ offset
+=
+"100%"
+ stopColor
+=
+{
+PRIMARY_MAIN
+}
+ />
+
+
+      </
+linearGradient
+>
+
+
+ 
+
+
+      <
+linearGradient
+ id
+=
+{
+`
+${
+gradientId
+}
+-3`
+}
+ x1
+=
+"50%"
+ x2
+=
+"50%"
+ y1
+=
+"0%"
+ y2
+=
+"100%"
+>
+
+
+        <
+stop
+ offset
+=
+"0%"
+ stopColor
+=
+{
+PRIMARY_LIGHT
+}
+ />
+
+
+        <
+stop
+ offset
+=
+"100%"
+ stopColor
+=
+{
+PRIMARY_MAIN
+}
+ />
+
+
+      </
+linearGradient
+>
+
+
+    </
+defs
+>
+
+
+ 
+
+
+    <
+g
+ fill
+=
+{
+PRIMARY_MAIN
+}
+ fillRule
+=
+"evenodd"
+ stroke
+=
+"none"
+ strokeWidth
+=
+"1"
+>
+
+
+      <
+path
+
+
+        fill
+=
+{
+`url(#
+${
+`
+${
+gradientId
+}
+-1`
+}
+)`
+}
+
+
+        d
+=
+"M183.168 285.573l-2.918 5.298-2.973 5.363-2.846 5.095-2.274 4.043-2.186 3.857-2.506 4.383-1.6 2.774-2.294 3.939-1.099 1.869-1.416 2.388-1.025 1.713-1.317 2.18-.95 1.558-1.514 2.447-.866 1.38-.833 1.312-.802 1.246-.77 1.18-.739 1.111-.935 1.38-.664.956-.425.6-.41.572-.59.8-.376.497-.537.69-.171.214c-10.76 13.37-22.496 23.493-36.93 29.334-30.346 14.262-68.07 14.929-97.202-2.704l72.347-124.682 2.8-1.72c49.257-29.326 73.08 1.117 94.02 40.927z"
+
+
+      />
+
+
+      <
+path
+
+
+        fill
+=
+{
+`url(#
+${
+`
+${
+gradientId
+}
+-2`
+}
+)`
+}
+
+
+        d
+=
+"M444.31 229.726c-46.27-80.956-94.1-157.228-149.043-45.344-7.516 14.384-12.995 42.337-25.267 42.337v-.142c-12.272 0-17.75-27.953-25.265-42.337C189.79 72.356 141.96 148.628 95.69 229.584c-3.483 6.106-6.828 11.932-9.69 16.996 106.038-67.127 97.11 135.667 184 137.278V384c86.891-1.611 77.962-204.405 184-137.28-2.86-5.062-6.206-10.888-9.69-16.994"
+
+
+      />
+
+
+      <
+path
+
+
+        fill
+=
+{
+`url(#
+${
+`
+${
+gradientId
+}
+-3`
+}
+)`
+}
+
+
+        d
+=
+"M450 384c26.509 0 48-21.491 48-48s-21.491-48-48-48-48 21.491-48 48 21.491 48 48 48"
+
+
+      />
+
+
+    </
+g
+>
+
+
+  </
+svg
+>
+
+
+);
+src/components/logo/logo
+
+
+
+
+Usage
+import
+ Logo
+ from
+ 'src/components/logo'
+;
+
+
+ 
+
+
+<
+Logo
+ sx
+=
+{
+{ 
+width
+: 
+64
+, 
+height
+: 
+64
+ }
+}
+ />
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/tailwind/
+Tailwind | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Integration Tailwind
+
+
+
+
+Install Tailwind CSS
+npm install -D tailwindcss postcss autoprefixer
+
+
+
+
+Create files
+Create files in the root directory
+
+
+tailwind.config.js
+
+
+postcss.config.js
+ or 
+postcss.config.cjs
+ (vite.js)
+
+
+const
+ config
+ =
+ {
+
+
+  content
+: [
+'./index.html'
+, 
+'./src/**/*.{js,ts,jsx,tsx}'
+],
+
+
+  theme
+: {
+
+
+    extend
+: {},
+
+
+  },
+
+
+  corePlugins
+: {
+
+
+    // Remove the Tailwind CSS preflight styles so it can use Material UI's preflight instead (CssBaseline).
+
+
+    preflight
+: 
+false
+,
+
+
+  },
+
+
+  plugins
+: [],
+
+
+};
+
+
+ 
+
+
+export
+ default
+ config
+;
+tailwind.config.js
+module
+.
+exports
+ =
+ {
+
+
+  plugins
+: {
+
+
+    tailwindcss
+: {},
+
+
+    autoprefixer
+: {},
+
+
+  },
+
+
+}
+postcss.config.js
+
+
+
+
+Update file
+
+
+src/global.css
+
+
+...
+
+
+/* scrollbar */
+
+
+@import
+ 'simplebar-react/dist/simplebar.min.css'
+;
+
+
+ 
+
+
+@tailwind
+ base;
+
+
+@tailwind
+ components;
+
+
+@tailwind
+ utilities;
+
+
+ 
+
+
+html
+ {
+
+
+  ...
+
+
+}
+src/global.css
+
+
+
+
+Reference:
+
+
+
+
+https://tailwindcss.com/docs/guides/vite
+
+
+https://github.com/mui/material-ui/tree/master/examples/material-ui-cra-tailwind-ts
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/css-vars/
+Css vars | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Css vars
+
+
+Feature available in v6.
+
+
+
+
+Color
+https://mui.com/material-ui/experimental-api/css-theme-variables/usage/#using-theme-variables
+// Old
+
+
+color
+: 
+theme
+.
+palette
+.
+common
+.
+white
+,
+
+
+ 
+
+
+// New
+
+
+color
+: 
+theme
+.
+vars
+.
+palette
+.
+common
+.
+white
+,
+
+
+
+
+Alpha
+// Old
+
+
+import
+ { 
+alpha
+ } 
+from
+ '@mui/material/styles'
+;
+
+
+alpha
+(
+theme
+.
+palette
+.
+text
+.
+primary
+, 
+0.2
+)
+
+
+ 
+
+
+// New
+
+
+import
+ { 
+varAlpha
+ } 
+from
+ 'minimal-shared/utils'
+;
+
+
+varAlpha
+(
+theme
+.
+vars
+.
+palette
+.
+text
+.
+primaryChannel
+, 
+0.2
+)
+
+
+
+
+Dark mode
+
+
+
+
+https://mui.com/material-ui/experimental-api/css-theme-variables/overview/#styling
+
+
+
+
+
+
+https://mui.com/material-ui/experimental-api/css-theme-variables/migration/#4-refactor-custom-styles-to-use-the-attribute-selector
+
+
+
+
+Old
+import
+ { 
+alpha
+ } 
+from
+ '@mui/material/styles'
+;
+
+
+ 
+
+
+<
+Box
+
+
+  sx
+=
+{
+{
+
+
+    color
+: 
+theme
+.
+palette
+.
+mode
+ ===
+ 'light'
+ ?
+ 'primary.main'
+ :
+ 'primary.light'
+,
+
+
+    boxShadow
+: 
+`-80px 80px 80px 
+${
+
+
+    theme
+.
+palette
+.
+mode
+ ===
+ 'light'
+
+
+    ?
+ alpha
+(
+theme
+.
+palette
+.
+grey
+[
+500
+], 
+0.48
+)
+
+
+    :
+ alpha
+(
+theme
+.
+palette
+.
+common
+.
+black
+, 
+0.24
+)
+
+
+    }
+`
+,
+
+
+  }
+}
+
+
+>
+
+
+Box
+
+
+</
+Box
+>
+New
+import
+ { 
+varAlpha
+ } 
+from
+ 'minimal-shared/utils'
+;
+
+
+ 
+
+
+<
+Box
+
+
+  sx
+=
+{
+{
+
+
+    color
+: 
+'primary.main'
+,
+
+
+    boxShadow
+: 
+`-80px 80px 80px 
+${
+varAlpha
+(
+theme
+.
+vars
+.
+palette
+.
+grey
+[
+'500Channel'
+], 
+0.48
+)
+}
+`
+,
+
+
+    ...
+theme
+.
+applyStyles
+(
+'dark'
+, {
+
+
+    color
+: 
+'primary.light'
+,
+
+
+    boxShadow
+: 
+`-80px 80px 80px 
+${
+varAlpha
+(
+theme
+.
+vars
+.
+palette
+.
+common
+.
+blackChannel
+, 
+0.24
+)
+}
+`
+,
+
+
+    }),
+
+
+  }
+}
+
+
+>
+
+
+Box
+
+
+</
+Box
+>
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/typography/
+Typography | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Typography
+
+
+Latest
+v6.1.0
+v5
+
+
+Custom global typography inside:
+
+
+
+
+src/theme/theme-config.ts
+
+
+src/theme/core/typography.ts
+
+
+
+
+
+
+Install new font
+npm
+ install
+ @fontsource-variable/inter
+
+
+
+
+Update
+
+
+src/global.css
+
+
+src/theme/theme-config.ts
+
+
+src/global.css
+@import
+ '@fontsource-variable/inter'
+;
+src/theme/theme-config.ts
+fontFamily
+: {
+
+
+  primary
+: 
+'Inter Variable'
+,
+
+
+  ...
+
+
+},
+
+
+
+
+Reference:
+
+
+
+
+https://fontsource.org/fonts/inter
+
+
+https://minimals.cc/components/foundation/typography
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/layout/
+Layout | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Layout
+
+
+Latest
+v5
+
+
+
+
+Change size
+
+
+in 
+src/layouts/core/layout-section.tsx
+
+
+<
+GlobalStyles
+
+
+  styles
+=
+{
+{
+
+
+    body
+: {
+
+
+      '--layout-nav-zIndex'
+: 
+1101
+,
+
+
+      '--layout-nav-mobile-width'
+: 
+'320px'
+,
+
+
+      '--layout-header-blur'
+: 
+'8px'
+,
+
+
+      '--layout-header-zIndex'
+: 
+1100
+,
+
+
+      '--layout-header-mobile-height'
+: 
+'64px'
+,
+
+
+      '--layout-header-desktop-height'
+: 
+'72px'
+,
+
+
+      ...
+cssVars
+,
+
+
+    },
+
+
+  }
+}
+
+
+/>
+src/layouts/core/layout-section.tsx
+
+
+
+
+Change Menu, Navigation
+
+
+Find 
+nav-config.(ts | js)
+ files to adjust items.
+
+
+Example:
+
+
+
+
+<MainLayout/>
+ : src/layouts/config-nav-main
+
+
+<DashboardLayout>
+ : src/layouts/config-nav-dashboard
+
+
+
+
+
+
+Reference
+
+
+
+
+https://minimals.cc/components/extra/layout/
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://mui.com/
+MUI: The React component library you always wanted
+Skip to content
+🚀 Influence MUI's 2025 roadmap! Participate in the latest
+ 
+Developer Survey →
+Products
+Docs
+Pricing
+About us
+Blog
+Products
+MUI Core
+Ready-to-use foundational React components, free forever.
+MUI X
+Advanced and powerful components for complex use cases.
+Templates
+Fully built templates for your application.
+Design Kits
+Material UI components in your favorite design tool.
+Toolpad
+Beta
+Components and tools for dashboards and internal apps.
+Docs
+Material UI
+Component library that implements Google's Material Design.
+Joy UI
+Component library that implements MUI's own in-house design principles.
+MUI Base
+Unstyled React components and low-level hooks.
+MUI System
+CSS utilities for rapidly laying out custom designs.
+MUI X
+Advanced components for complex use cases.
+Toolpad
+Beta
+Components and tools for dashboards and internal apps.
+Pricing
+About us
+Blog
+Move faster
+ 
+with intuitive React UI tools
+MUI offers a comprehensive suite of free UI tools to help you ship new features faster. Start with Material UI, our fully-loaded component library, or bring your own design system to our production-ready components.
+Discover the Core libraries
+The world's best product teams trust MUI to deliver an unrivaled experience for both developers and users.
+Products
+Every component you need is 
+ready for production
+Build at an accelerated pace without sacrificing flexibility or control.
+Material UI
+Foundational components for shipping features faster.
+MUI X
+Advanced components for complex use cases.
+Toolpad
+Beta
+Components and tools for building dashboards and internal apps
+Templates
+Professionally built UIs to jumpstart your next project.
+Design kits
+The core components available on your favorite design tool.
+Why build with MUI?
+A 
+delightful experience
+ 
+for you and your users
+Timeless aesthetics
+Build beautiful UIs with ease. Start with Google's Material Design, or create your own sophisticated theme.
+Intuitive customization
+Our components are as flexible as they are powerful. You always have full control over how they look and behave.
+Unrivaled documentation
+The answer to your problem can be found in our docs. How can we be so sure? Because our docs boast over 2,000 contributors.
+Dedicated to accessibility
+We believe in building for everyone. That's why accessibility is a high priority with every new feature we ship.
+Production-ready components
+Beautiful and powerful,
+ 
+right out of the box
+Join the community
+Supported by thousands of 
+developers and designers
+5.8M
+Weekly downloads on npm
+93.9k
+Stars on GitHub
+3.0k
+Open-source contributors
+19.2k
+Followers on X
+"We've relied on Material UI really heavily. I override a lot of default styles to try and make things our own, but the time we save with complex components like the Autocomplete and the Data Grid are so worth it. Every other library I try has 80% of what I'm looking for when it comes to complex use cases, Material UI has it all under one roof which is a huge help for our small team."
+Kyle Gill
+Engineer & Designer
+"Material UI looks great and lets us deliver fast, thanks to their solid API design and documentation - it's refreshing to use a component library where you get everything you need from their site rather than Stack Overflow. We think the upcoming version, with extra themes and customizability, will make Material UI even more of a game changer. We're extremely grateful to the team for the time and effort spent maintaining the project."
+Jean-Laurent de Morlhon
+VP of Engineering
+"Material UI offers a wide variety of high quality components that have allowed us to ship features faster. It has been used by more than a hundred engineers in our organization. What's more, Material UI's well architected customization system has allowed us to differentiate ourselves in the marketplace."
+Joona Rahko
+Staff Software Engineer
+"After much research on React component libraries, we decided to ditch our in-house library for Material UI, using its powerful customization system to implement our Design System. This simple move did a rare thing in engineering: it lowered our maintenance costs while enhancing both developer and customer experience. All of this was done without sacrificing the organization's branding and visual identity."
+Gustavo de Paula
+Specialist Software Engineer
+Sponsors
+You
+ make this possible
+The development of these open-source tools is accelerated by our generous sponsors.
+Diamond
+Octopus Deploy
+A unified DevOps automation platform for your team.
+Doit International
+Technology and cloud expertise to buy, optimize and manage public cloud.
+Become our sponsor!
+To join us, contact us at
+ 
+sales@mui.com
+ 
+for pre-approval.
+Gold
+Tidelift
+Enterprise-ready open-source software.
+Text-em-all
+Mass text messaging and automated calling.
+DialMyCalls
+Send text messages, calls, and emails.
+Route4Me
+Trusted last mile route planning and optimization.
+Become a sponsor
+Find out how
+ 
+you can support MUI.
+Goread.io
+Buzzoid
+Twicsy
+Views4You
+Keep up to date
+Join our newsletter for regular updates. No spam ever.
+Your email
+Subscribe
+Products
+Material UI
+Base UI
+MUI X
+Toolpad
+Resources
+Material Icons
+Templates
+Components
+Customization
+Design Kits
+Explore
+Documentation
+Store
+Blog
+Showcase
+Roadmap
+Company
+About
+Vision
+Careers
+ 
+Hiring
+Support
+Privacy policy
+Contact us
+Copyright © 
+2025
+ Material UI SAS, trading as MUI.
+
+URL: https://docs.minimals.cc/introduction/
+Introduction | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+
+
+Minimal - Client & Admin Dashboard
+
+
+A professional React Kit that comes with plenty of ready-to-use Material-UI components that will
+help you to build more beautiful frontend pages.
+
+
+
+
+Built with 
+MUI v5
+ with two versions 
+Next.js
+ | 
+Vite
+.
+
+
+Includes a complete design component 
+Figma
+ file to extend your project development.
+
+
+The theme is ready to change to any style you want.
+
+
+
+
+
+
+Learn more: 
+package
+
+
+
+
+Documents
+
+
+In addition to the documentation provided from Minimal you can refer to other relevant documents
+regarding the components used in this template.
+
+
+🔸MUI
+
+
+Because minimal is built on top of MUI components. You can read the documentation and use all of the
+MUI components here: 
+https://mui.com/components/
+.
+
+
+🔸3rd party libraries
+
+
+We include direct links to third-party used libraries:
+
+
+Example:
+
+
+
+
+Chart (
+https://apexcharts.com
+)
+
+
+Reference from
+
+https://minimals.cc/components/extra/chart
+
+
+
+
+
+
+Feedback
+
+
+We are always open to your feedback at 
+[email protected]
+
+
+If something is missing in the documentation, or if you found some part confusing, contact us with
+your suggestions for improvement.
+
+
+We love hearing from you!
+
+
+
+
+This project is just the user interface not including the backend and database.
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://minimals.cc/
+Minimal UI Kit
+
+URL: https://minimals.cc/components/extra/chart
+Minimal UI Kit
+
+URL: https://docs.minimals.cc/mock-server/
+Mock server | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Mock server
+
+
+We provide some simple examples on how to set up a mock API so you can work in your 
+localhost
+.
+
+
+The online demo API can be disabled at any time. To avoid interruptions during work, you should host your own API server according to the instructions below
+
+
+
+
+Usage in Localhost
+
+
+Watch video
+
+
+Step 1: Download resource
+
+
+Download resource inside the 
+README.md
+ or 
+MOCK_API.md
+.
+
+
+v6
+next-ts
+
+
+  ├──
+ README.md
+
+
+  ├──
+ ...
+v5
+Minimal_Typescript
+
+
+  ├──
+ MOCK_API.md
+
+
+  ├──
+ ...
+
+
+Step 2: Start local server
+
+
+Start project 
+minimal-api-dev
+ folder.
+
+
+Make sure you are running on the correct port 
+http://localhost:7272
+.
+
+
+Change port
+DEV_API
+: 
+"http://localhost:7272"
+,
+next.config.mjs
+Change port
+"dev"
+: 
+"next dev -p 7272"
+,
+
+
+"start"
+: 
+"next start -p 7272"
+,
+package.json
+Install and run
+yarn install
+
+
+yarn dev
+
+
+Step 3:
+
+Update 
+.env
+ in your current project:
+
+
+next.js
+
+
+vite.js
+
+
+starter-next-ts
+
+
+starter-vite-ts
+
+
+...
+
+
+VITE_SERVER_URL
+=
+http:
+//localhost:7272
+
+
+VITE_ASSET_URL
+=
+http:
+//localhost:7272
+next.js, vite.js...
+
+
+
+
+Usage on Production
+
+
+Step 1:
+
+
+
+
+Push source code 
+minimal-api-dev
+ to your github.
+
+
+Deploy on your 
+vercel.com
+.
+
+
+
+
+
+
+Step 2:
+In 
+next.config.mjs
+ of 
+minimal-api-dev
+.
+const
+ nextConfig
+ =
+ {
+
+
+reactStrictMode
+: 
+true
+,
+
+
+  env
+: {
+
+
+    DEV_API
+: 
+'http://localhost:7272'
+,
+
+
+    PRODUCTION_API
+: 
+'https://your-domain-api.vercel.app'
+,
+
+
+  },
+
+
+};
+
+
+ 
+
+
+export
+ default
+ nextConfig
+;
+next.config.mjs
+
+
+
+
+Step 3:
+
+Update 
+.env
+ in your current project:
+
+
+next.js
+
+
+vite.js
+
+
+starter-next-ts
+
+
+starter-vite-ts
+
+
+...
+
+
+VITE_SERVER_URL
+=
+https:
+//your-domain-api.vercel.app
+
+
+VITE_ASSET_URL
+=
+https:
+//your-domain-api.vercel.app
+vite-js, next-js...
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/introduction/#documents
+Introduction | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+
+
+Minimal - Client & Admin Dashboard
+
+
+A professional React Kit that comes with plenty of ready-to-use Material-UI components that will
+help you to build more beautiful frontend pages.
+
+
+
+
+Built with 
+MUI v5
+ with two versions 
+Next.js
+ | 
+Vite
+.
+
+
+Includes a complete design component 
+Figma
+ file to extend your project development.
+
+
+The theme is ready to change to any style you want.
+
+
+
+
+
+
+Learn more: 
+package
+
+
+
+
+Documents
+
+
+In addition to the documentation provided from Minimal you can refer to other relevant documents
+regarding the components used in this template.
+
+
+🔸MUI
+
+
+Because minimal is built on top of MUI components. You can read the documentation and use all of the
+MUI components here: 
+https://mui.com/components/
+.
+
+
+🔸3rd party libraries
+
+
+We include direct links to third-party used libraries:
+
+
+Example:
+
+
+
+
+Chart (
+https://apexcharts.com
+)
+
+
+Reference from
+
+https://minimals.cc/components/extra/chart
+
+
+
+
+
+
+Feedback
+
+
+We are always open to your feedback at 
+[email protected]
+
+
+If something is missing in the documentation, or if you found some part confusing, contact us with
+your suggestions for improvement.
+
+
+We love hearing from you!
+
+
+
+
+This project is just the user interface not including the backend and database.
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://apexcharts.com
+ApexCharts.js - Open Source JavaScript Charts for your website
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APEXCHARTS
+ 
+ 
+ 
+ Projects 
+ 
+ 
+ ApexCharts.js 
+ 
+ 
+ ApexTree.js 
+ 
+ 
+ ApexSankey.js 
+ 
+ 
+ ApexGrid.js 
+ 
+ 
+ Chart Editor 
+ 
+ 
+ Apex GPT 
+ Demos 
+ 
+ 
+ ApexCharts Demos 
+ 
+ 
+ ApexTree Demos 
+ 
+ 
+ ApexSankey Demos 
+ Docs 
+ 
+ 
+ ApexCharts Docs 
+ 
+ 
+ ApexTree Docs 
+ 
+ 
+ ApexSankey Docs 
+ 
+ 
+ ApexGrid Docs 
+ 
+Embedded Analytics
+ 
+ Download 
+APEXCHARTS.JS
+ Modern & Interactive Open-source Charts
+ 
+EXPLORE DEMOS
+ 
+DOCS
+Other projects
+ 
+ 
+ APEX EDITOR
+ 
+ 
+ 
+ APEX TREE - ORG CHART
+ 
+ 
+ 
+ APEX SANKEY
+ 
+ 
+ 
+ APEX GRID
+ 
+What is ApexCharts?
+ ApexCharts is a modern charting library that helps developers to create beautiful and interactive visualizations for web pages.
+ It is an 
+open-source
+ project licensed under MIT and is free to use in commercial applications.
+ 
+DOWNLOAD
+ 
+VIEW DEMO
+Built for developers
+ Integrating visualizations with ApexCharts is as simple as it can get with extensive API docs and 100+ samples ready to be used.
+ 
+GET STARTED
+
+
+let myChart = new ApexCharts(element, {
+  chart: {
+    type: 'bar',
+  },
+  series: [{
+    data: [18, 28, 47, 57, 77]
+  }],
+  yaxis: {
+    opposite: true,
+  }
+})
+myChart.render();
+
+
+
+ 
+ 
+ 
+Several Chart Types
+ Choose from a wide range of charts. Create a combination of different charts to provide a clear difference between data.
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Fully Responsive
+ ApexCharts are flexible and responsive - making your charts work on desktops, tablets as well as mobiles.
+ 
+ 
+ 
+Highly Customizable
+ Configuring ApexCharts is easy-peasy. Our comprehensive docs will help you setting up your charts quickly.
+ 
+Free & Open Source
+ ApexCharts.js is an open source project licensed under MIT and is free to use in commercial applications.
+ 
+VIEW ALL FEATURES
+See it in action
+ Below is a code snippet to show a glimpse of how easy it is to create interactive charts.
+ 
+ See the Pen 
+TimeSeries Demo
+ by ApexCharts
+ (
+@apexcharts
+) on 
+CodePen
+. 
+Dashboard Templates
+ Dashboard is the face of any application and should speak an expressive language. 
+ We have developed dashboard templates for you to have a look at the possibilities of ApexCharts.
+ 
+ 
+ 
+ Follow us and ask more on:
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ Integrate with popular frameworks
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Demos
+Features
+About
+Embedded Analytics
+Blog
+Docs
+ © 2025 ApexCharts. All rights reserved.
+ 
+Stay Updated
+Get the latest news, updates and what's coming next! Sign up for our Newsletter here.
+Thank You! You are signed up.
+There was an error while trying to send your request. Please try again.
+ 
+ 
+ 
+ApexCharts.js will use the information you provide on this form to be in touch with you and to provide updates and marketing.
+
+URL: https://docs.minimals.cc/
+Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/support/
+Faqs & Support | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Faqs & Support
+
+
+Our support mainly covers pre-sales questions, basic template questions, and bug reports through our support email: 
+[email protected]
+
+
+Customers are always welcome to ask for feature requests and give suggestions that can improve our premium themes. All feature requests will be considered, and the new features released with upcoming releases.
+
+
+
+
+How can I get the update?
+
+
+You can get the update in your purchase dashboard.
+
+
+a.If you are 
+already
+ logged in:
+
+
+
+
+Select tab : 
+Downloads
+
+
+
+
+b. If you 
+haven't
+ logged in yet
+
+
+
+
+Login here: 
+https://mui.com/store/sign-in/
+
+
+In your menu dropdown account select : 
+Download history
+
+
+
+
+
+
+What's in the product packages? Which license should I choose to buy to suit my needs?
+
+
+Learn more: 
+package
+
+
+
+
+How can I upgrade my product plan?
+
+
+When you intend to upgrade the product package, please contact us, we will provide you with a discount code.
+
+
+After having a discount code, you can follow the steps below to apply:
+
+
+
+
+Select the package product to upgrade.
+
+
+Enter discount code.(contact us to get the code)
+
+
+Payment.
+
+
+Done.
+
+
+
+
+
+
+How long is my license valid for?
+
+
+After successfully purchasing the product, you get 6 months of technical support and free updates for 1 year
+
+
+Once the license has expired you will no longer be able to receive new updates from us. And you need to renew or purchase a new license to receive updates.
+
+
+
+
+How can I get help?
+
+
+To be eligible to request technical support you must have purchased the template and have at least one regular or extended license.
+
+
+When you send a support request please describe your issue in detail. If you can provide a link to your developing site then this can help us to solve your issue more quickly.
+
+
+All 3rd party plugins used in the theme are provided as bonus and we do not give any guarantee to their functionality. Our support does not cover any 3rd party plugin customization or bug fixes that are not in our control.
+
+
+
+
+Please attach invoice/email or customer name when submitting support request.
+
+
+
+
+Note:
+
+
+
+
+We only provide the UI interface and will not support logic outside of the product.
+
+
+You can request a feature. We will look into it if it makes sense we will release it in the next version.
+
+
+We also provide a fee-based service, customized to the customer's wishes.
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/settings/
+Settings | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Settings
+
+
+Latest
+v6.1.0
+v5
+
+
+This section will describe how you settings your theme.
+
+
+
+
+Change default settings
+Remove 
+local storage
+ or 
+cookies storage
+ when you change settings.
+With local storage
+// src/App.(jsx | tsx) or src/app/layout.(jsx | tsx)
+
+
+ 
+
+
+import
+ { 
+defaultSettings
+ } 
+from
+ 'src/components/settings'
+;
+
+
+ 
+
+
+<
+SettingsProvider
+ defaultSettings
+=
+{
+defaultSettings
+}
+>
+
+
+  ...
+
+
+</
+SettingsProvider
+>
+With cookies storage (Next.js only)
+// src/App.(jsx | tsx) or src/app/layout.(jsx | tsx)
+
+
+ 
+
+
+import
+ { 
+defaultSettings
+ } 
+from
+ 'src/components/settings'
+;
+
+
+import
+ { 
+detectSettings
+ } 
+from
+ 'src/components/settings/server'
+;
+
+
+ 
+
+
+export
+ default
+ async
+ function
+ RootLayout
+({ 
+children
+ }: 
+RootLayoutProps
+) {
+
+
+  const
+ cookieSettings
+ =
+ await
+ detectSettings
+();
+
+
+ 
+
+
+  return
+ (
+
+
+    <
+html
+ lang
+=
+"en"
+ dir
+=
+{
+cookieSettings
+.
+dir
+}
+ suppressHydrationWarning
+>
+
+
+      <
+body
+>
+
+
+        <
+SettingsProvider
+ cookieSettings
+=
+{
+cookieSettings
+}
+ defaultSettings
+=
+{
+defaultSettings
+}
+>
+
+
+          ...
+
+
+        </
+SettingsProvider
+>
+
+
+      </
+body
+>
+
+
+    </
+html
+>
+
+
+  );
+
+
+}
+
+
+ 
+
+
+
+
+
+
+Base theme
+Without settings and locales.
+// src/theme/create-theme.(js | ts)
+
+
+ 
+
+
+export
+ const
+ baseTheme
+ =
+ {
+
+
+  colorSchemes
+: {
+
+
+    light
+: {
+
+
+      palette
+: 
+palette
+.
+light
+,
+
+
+      shadows
+: 
+shadows
+.
+light
+,
+
+
+      customShadows
+: 
+customShadows
+.
+light
+
+
+    },
+
+
+    dark
+: {
+
+
+      palette
+: 
+palette
+.
+dark
+,
+
+
+      shadows
+: 
+shadows
+.
+dark
+,
+
+
+      customShadows
+: 
+customShadows
+.
+dark
+
+
+    }
+
+
+  },
+
+
+  mixins
+,
+
+
+  components
+,
+
+
+  typography
+,
+
+
+  shape
+: { 
+borderRadius
+: 
+8
+ },
+
+
+  direction
+: 
+themeConfig
+.
+direction
+,
+
+
+  cssVariables
+: 
+themeConfig
+.
+cssVariables
+,
+
+
+  defaultColorScheme
+: 
+themeConfig
+.
+defaultMode
+
+
+}
+
+
+ 
+
+
+export
+ function
+ createTheme
+({ 
+themeOverrides
+ }) {
+
+
+  const
+ theme
+ =
+ createMuiTheme
+(
+baseTheme
+, 
+themeOverrides
+);
+
+
+ 
+
+
+  return
+ theme
+;
+
+
+}
+
+
+
+
+With localization
+MUI localization components
+
+
+https://mui.com/material-ui/guides/localization/
+.
+
+
+// src/theme/create-theme.(js | ts)
+
+
+ 
+
+
+export
+ const
+ baseTheme
+ =
+ {
+
+
+  colorSchemes
+: {
+
+
+    light
+: {
+
+
+      palette
+: 
+palette
+.
+light
+,
+
+
+      shadows
+: 
+shadows
+.
+light
+,
+
+
+      customShadows
+: 
+customShadows
+.
+light
+
+
+    },
+
+
+    dark
+: {
+
+
+      palette
+: 
+palette
+.
+dark
+,
+
+
+      shadows
+: 
+shadows
+.
+dark
+,
+
+
+      customShadows
+: 
+customShadows
+.
+dark
+
+
+    }
+
+
+  },
+
+
+  mixins
+,
+
+
+  components
+,
+
+
+  typography
+,
+
+
+  shape
+: { 
+borderRadius
+: 
+8
+ },
+
+
+  direction
+: 
+themeConfig
+.
+direction
+,
+
+
+  cssVariables
+: 
+themeConfig
+.
+cssVariables
+,
+
+
+  defaultColorScheme
+: 
+themeConfig
+.
+defaultMode
+
+
+}
+
+
+ 
+
+
+export
+ function
+ createTheme
+({ 
+themeOverrides
+, 
+localeComponents
+ }) {
+
+
+  const
+ theme
+ =
+ createMuiTheme
+(
+baseTheme
+, 
+localeComponents
+, 
+themeOverrides
+);
+
+
+ 
+
+
+  return
+ theme
+;
+
+
+}
+
+
+
+
+With settings
+// src/theme/create-theme.(js | ts)
+
+
+ 
+
+
+export
+ const
+ baseTheme
+ =
+ {
+
+
+  colorSchemes
+: {
+
+
+    light
+: {
+
+
+      palette
+: 
+palette
+.
+light
+,
+
+
+      shadows
+: 
+shadows
+.
+light
+,
+
+
+      customShadows
+: 
+customShadows
+.
+light
+
+
+    },
+
+
+    dark
+: {
+
+
+      palette
+: 
+palette
+.
+dark
+,
+
+
+      shadows
+: 
+shadows
+.
+dark
+,
+
+
+      customShadows
+: 
+customShadows
+.
+dark
+
+
+    }
+
+
+  },
+
+
+  mixins
+,
+
+
+  components
+,
+
+
+  typography
+,
+
+
+  shape
+: { 
+borderRadius
+: 
+8
+ },
+
+
+  direction
+: 
+themeConfig
+.
+direction
+,
+
+
+  cssVariables
+: 
+themeConfig
+.
+cssVariables
+,
+
+
+  defaultColorScheme
+: 
+themeConfig
+.
+defaultMode
+
+
+}
+
+
+ 
+
+
+export
+ function
+ createTheme
+({ 
+settingsState
+, 
+themeOverrides
+ }) {
+
+
+  const
+ updatedCore
+ =
+ settingsState
+ ?
+ updateCoreWithSettings
+(
+baseTheme
+, 
+settingsState
+) 
+:
+ baseTheme
+;
+
+
+ 
+
+
+  const
+ updatedComponents
+ =
+ settingsState
+
+
+    ?
+ updateComponentsWithSettings
+(
+components
+, 
+settingsState
+)
+
+
+    :
+ {};
+
+
+ 
+
+
+  const
+ theme
+ =
+ createMuiTheme
+(
+updatedCore
+, 
+updatedComponents
+, 
+themeOverrides
+);
+
+
+ 
+
+
+  return
+ theme
+;
+
+
+}
+
+
+
+
+Related files:
+
+
+
+
+src/App.js
+ or 
+src/app/layout.js
+
+
+src/components/settings
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/dependencies/
+Dependencies | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Dependencies
+
+
+Based on the provided dependency table you can remove or install the dependencies you want to use.
+
+
+
+
+# core
+
+
+react
+
+
+react-dom
+
+
+@
+emotion/cache
+
+
+@
+emotion/react
+
+
+@
+emotion/styled
+
+
+@
+mui/lab
+
+
+@
+mui/material
+
+
+@
+mui/x-data-grid
+
+
+@
+mui/x-tree-view
+
+
+@
+mui/x-date-pickers
+
+
+ 
+
+
+# next.js
+
+
+"next"
+
+
+"@mui/material-nextjs"
+
+
+ 
+
+
+# router (vite.js)
+
+
+history
+
+
+react-router
+
+
+react-router-dom
+
+
+ 
+
+
+# fonts
+
+
+@
+fontsource/barlow
+
+
+@
+fontsource/dm-sans
+
+
+@
+fontsource/inter
+
+
+@
+fontsource/nunito-sans
+
+
+@
+fontsource/public-sans
+
+
+ 
+
+
+# progress bar when change router
+
+
+"nprogress"
+
+
+ 
+
+
+# drop and drag
+
+
+@
+dnd-kit/core
+
+
+@
+dnd-kit/sortable
+
+
+@
+dnd-kit/utilities
+
+
+ 
+
+
+# auth
+
+
+firebase
+
+
+aws-amplify
+
+
+@
+auth0/auth0-react
+
+
+@
+supabase/supabase-js
+
+
+ 
+
+
+# fullcalendar
+
+
+@
+fullcalendar/core
+
+
+@
+fullcalendar/daygrid
+
+
+@
+fullcalendar/interaction
+
+
+@
+fullcalendar/list
+
+
+@
+fullcalendar/react
+
+
+@
+fullcalendar/timegrid
+
+
+@
+fullcalendar/timeline
+
+
+ 
+
+
+# icon
+
+
+@
+iconify/react
+
+
+ 
+
+
+# pdf
+
+
+@
+react-pdf/renderer
+
+
+ 
+
+
+# editor
+
+
+@
+tiptap/core
+
+
+@
+tiptap/extension-code-block
+
+
+@
+tiptap/extension-code-block-lowlight
+
+
+@
+tiptap/extension-image
+
+
+@
+tiptap/extension-link
+
+
+@
+tiptap/extension-placeholder
+
+
+@
+tiptap/extension-text-align
+
+
+@
+tiptap/pm
+
+
+@
+tiptap/react
+
+
+@
+tiptap/starter-kit
+
+
+lowlight
+
+
+ 
+
+
+# markdown
+
+
+react-markdown
+
+
+turndown
+
+
+rehype-raw
+
+
+remark-gfm
+
+
+rehype-highlight
+
+
+ 
+
+
+# chart
+
+
+apexcharts
+
+
+react-apexcharts
+
+
+ 
+
+
+# format date
+
+
+dayjs
+
+
+ 
+
+
+# carousel
+
+
+embla-carousel
+
+
+embla-carousel-auto-height
+
+
+embla-carousel-auto-scroll
+
+
+embla-carousel-autoplay
+
+
+embla-carousel-react
+
+
+ 
+
+
+# animation
+
+
+framer-motion
+
+
+ 
+
+
+# localization
+
+
+i18next
+
+
+react-i18next
+
+
+i18next-resources-to-backend
+
+
+i18next-browser-languagedetector
+
+
+ 
+
+
+# mapbox
+
+
+mapbox-gl
+
+
+react-map-gl
+
+
+ 
+
+
+# upload
+
+
+react-dropzone
+
+
+ 
+
+
+# walktour
+
+
+react-joyride
+
+
+ 
+
+
+# image
+
+
+react-lazy-load-image-component
+
+
+ 
+
+
+# organizational chart
+
+
+react-organizational-chart
+
+
+ 
+
+
+# input format
+
+
+react-phone-number-input
+
+
+mui-one-time-password-input
+
+
+autosuggest-highlight
+
+
+ 
+
+
+# scrollbar
+
+
+simplebar-react
+
+
+ 
+
+
+# snackbar
+
+
+sonner
+
+
+ 
+
+
+# right-to-left
+
+
+stylis
+
+
+stylis-plugin-rtl
+
+
+ 
+
+
+# fetch api
+
+
+swr
+
+
+axios
+
+
+ 
+
+
+# lightbox
+
+
+yet-another-react-lightbox
+
+
+ 
+
+
+# form validation
+
+
+zod
+
+
+react-hook-form
+
+
+@
+hookform/resolvers
+
+
+
+
+Eslint
+
+
+JS
+TS
+eslint
+
+
+eslint-config-airbnb
+
+
+eslint-config-prettier
+
+
+eslint-import-resolver-alias
+
+
+eslint-plugin-import
+
+
+eslint-plugin-jsx-a11y
+
+
+eslint-plugin-perfectionist
+
+
+eslint-plugin-prettier
+
+
+eslint-plugin-react
+
+
+eslint-plugin-react-hooks
+
+
+eslint-plugin-unused-imports
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/global-styles/
+Global styles | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Global styles
+
+
+For case you are using the starter version and want to add some components from the full version, you need to add the corresponding styles to 
+src/global.css
+.
+
+
+
+
+Setup
+When installing components like 
+chart
+ or 
+lightbox
+...
+Don't forget to add the corresponding styles to 
+src/global.css
+.
+Or you can define additional html tags.
+/* scrollbar */
+
+
+/* https://minimals.cc/components/extra/scroll */
+
+
+@import
+ './components/scrollbar/styles.css'
+;
+
+
+ 
+
+
+/* map */
+
+
+/* https://minimals.cc/components/extra/map */
+
+
+@import
+ './components/map/styles.css'
+;
+
+
+ 
+
+
+/* lightbox */
+
+
+/* https://minimals.cc/components/extra/lightbox */
+
+
+@import
+ './components/lightbox/styles.css'
+;
+
+
+ 
+
+
+/* chart */
+
+
+/* https://minimals.cc/components/extra/chart */
+
+
+@import
+ './components/chart/styles.css'
+;
+
+
+ 
+
+
+a
+ {
+
+
+  color: 
+red
+;
+
+
+  text-decoration: 
+none
+;
+
+
+}
+
+
+...
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/global-config/
+Global configuration | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Global configuration
+
+
+
+
+Setup
+Generic configuration for several APIs.
+export const CONFIG: 
+ConfigValue 
+=
+ {
+
+
+  appName: 'Minimal UI', 
+// Application name
+
+
+  appVersion: packageJson.version, 
+// Application version from package.json
+
+
+  serverUrl: process.env.NEXT_PUBLIC_SERVER_URL ?? '', 
+// Server URL from environment variables
+
+
+  assetsDir: process.env.NEXT_PUBLIC_ASSETS_DIR ?? '', 
+// Assets directory from environment variables
+
+
+  isStaticExport: JSON.
+parse
+(`${process.env.BUILD_STATIC_EXPORT}`), 
+// Static export option (next.config.mjs)
+
+
+  /**
+
+
+   * Auth
+
+
+   * @method jwt | amplify | firebase | supabase | auth0
+
+
+   */
+
+
+  auth: {
+
+
+    method: 'jwt', 
+// Authentication method
+
+
+    skip: 
+false
+, 
+// Skip authentication
+
+
+    redirectPath: paths.dashboard.root, 
+// Redirect path after authentication
+
+
+  },
+
+
+  /**
+
+
+   * Mapbox
+
+
+   */
+
+
+  mapboxApiKey: process.env.NEXT_PUBLIC_MAPBOX_API_KEY ?? '', 
+// Mapbox API key from environment variables
+
+
+  /**
+
+
+   * Firebase
+
+
+   */
+
+
+  firebase: {
+
+
+    apiKey: process.env.NEXT_PUBLIC_FIREBASE_API_KEY ?? '', 
+// Firebase API key from environment variables
+
+
+    authDomain: process.env.NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN ?? '', 
+// Firebase Auth Domain from environment variables
+
+
+    projectId: process.env.NEXT_PUBLIC_FIREBASE_PROJECT_ID ?? '', 
+// Firebase Project ID from environment variables
+
+
+    storageBucket: process.env.NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET ?? '', 
+// Firebase Storage Bucket from environment variables
+
+
+    messagingSenderId: process.env.NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID ?? '', 
+// Firebase Messaging Sender ID from environment variables
+
+
+    appId: process.env.NEXT_PUBLIC_FIREBASE_APPID ?? '', 
+// Firebase App ID from environment variables
+
+
+    measurementId: process.env.NEXT_PUBLIC_FIREBASE_MEASUREMENT_ID ?? '', 
+// Firebase Measurement ID from environment variables
+
+
+  },
+
+
+  /**
+
+
+   * Amplify
+
+
+   */
+
+
+  amplify: {
+
+
+    userPoolId: process.env.NEXT_PUBLIC_AWS_AMPLIFY_USER_POOL_ID ?? '', 
+// AWS Amplify User Pool ID from environment variables
+
+
+    userPoolWebClientId: process.env.NEXT_PUBLIC_AWS_AMPLIFY_USER_POOL_WEB_CLIENT_ID ?? '', 
+// AWS Amplify User Pool Web Client ID from environment variables
+
+
+    region: process.env.NEXT_PUBLIC_AWS_AMPLIFY_REGION ?? '', 
+// AWS Amplify Region from environment variables
+
+
+  },
+
+
+  /**
+
+
+   * Auth0
+
+
+   */
+
+
+  auth0: {
+
+
+    clientId: process.env.NEXT_PUBLIC_AUTH0_CLIENT_ID ?? '', 
+// Auth0 Client ID from environment variables
+
+
+    domain: process.env.NEXT_PUBLIC_AUTH0_DOMAIN ?? '', 
+// Auth0 Domain from environment variables
+
+
+    callbackUrl: process.env.NEXT_PUBLIC_AUTH0_CALLBACK_URL ?? '', 
+// Auth0 Callback URL from environment variables
+
+
+  },
+
+
+  /**
+
+
+   * Supabase
+
+
+   */
+
+
+  supabase: {
+
+
+    url: process.env.NEXT_PUBLIC_SUPABASE_URL ?? '', 
+// Supabase URL from environment variables
+
+
+    key: process.env.NEXT_PUBLIC_SUPABASE_ANON_KEY ?? '', 
+// Supabase Key from environment variables
+
+
+  },
+
+
+};
+
+
+
+
+With static export option in next.js
+next.config.mjs
+const
+ isStaticExport
+ =
+ 'true'
+;
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/routing/
+Routing | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Routing
+
+
+This article does not cover the settings in 
+next.js
+ because the 
+next.js
+ documentation is quite complete 
+here
+
+
+
+
+Create react app, Vite.js
+
+
+The routing is based on 
+react-router
+.
+
+
+In this page you will find how to add new routes and how we handle existing routes.
+
+
+You can find the template's router configuration in 
+src/routes/sections/index.js
+ contains all routes of our template.
+
+
+
+
+Add a new item navigation
+
+
+Apply version 
+CRA
+, 
+Vite.js
+, 
+Next.js
+.
+
+
+Example: Add a new item navigation in the dashboard layout.
+
+
+Example base on starter version
+// src/layouts/nav-config-dashboard.tsx
+
+
+ 
+
+
+export
+ const
+ navData
+ =
+ [
+
+
+  {
+
+
+    subheader
+: 
+'Overview'
+,
+
+
+    items
+: [
+
+
+      {
+
+
+        title
+: 
+'One'
+,
+
+
+        path
+: 
+paths
+.
+dashboard
+.
+root
+,
+
+
+        icon
+: 
+ICONS
+.
+dashboard
+,
+
+
+        info
+: <
+Label
+>v
+{
+CONFIG
+.
+appVersion
+}
+</
+Label
+>,
+
+
+      },
+
+
+      { 
+title
+: 
+'Two'
+, 
+path
+: 
+paths
+.
+dashboard
+.
+two
+, 
+icon
+: 
+ICONS
+.
+ecommerce
+ },
+
+
+      { 
+title
+: 
+'Three'
+, 
+path
+: 
+paths
+.
+dashboard
+.
+three
+, 
+icon
+: 
+ICONS
+.
+analytics
+ },
+
+
+      { 
+title
+: 
+'New page'
+, 
+path
+: 
+'/dashboard/new-page'
+, 
+icon
+: 
+ICONS
+.
+analytics
+ },
+
+
+    ],
+
+
+  },
+
+
+  {
+
+
+    subheader
+: 
+'Management'
+,
+
+
+    items
+: [
+
+
+      {
+
+
+        title
+: 
+'Group'
+,
+
+
+        path
+: 
+paths
+.
+dashboard
+.
+group
+.
+root
+,
+
+
+        icon
+: 
+ICONS
+.
+user
+,
+
+
+        children
+: [
+
+
+          { 
+title
+: 
+'Four'
+, 
+path
+: 
+paths
+.
+dashboard
+.
+group
+.
+root
+ },
+
+
+          { 
+title
+: 
+'Five'
+, 
+path
+: 
+paths
+.
+dashboard
+.
+group
+.
+five
+ },
+
+
+          { 
+title
+: 
+'Six'
+, 
+path
+: 
+paths
+.
+dashboard
+.
+group
+.
+six
+ },
+
+
+        ],
+
+
+      },
+
+
+    ],
+
+
+  },
+
+
+];
+
+
+ 
+
+
+Add a new route (Vite.js)
+Example base on starter version
+// src/routes/sections/dashboard.tsx
+
+
+ 
+
+
+const
+ IndexPage
+ =
+ lazy
+(() 
+=>
+ import
+(
+'src/pages/dashboard/one'
+));
+
+
+const
+ PageTwo
+ =
+ lazy
+(() 
+=>
+ import
+(
+'src/pages/dashboard/two'
+));
+
+
+const
+ PageThree
+ =
+ lazy
+(() 
+=>
+ import
+(
+'src/pages/dashboard/three'
+));
+
+
+const
+ PageFour
+ =
+ lazy
+(() 
+=>
+ import
+(
+'src/pages/dashboard/four'
+));
+
+
+const
+ PageFive
+ =
+ lazy
+(() 
+=>
+ import
+(
+'src/pages/dashboard/five'
+));
+
+
+const
+ PageSix
+ =
+ lazy
+(() 
+=>
+ import
+(
+'src/pages/dashboard/six'
+));
+
+
+const
+ NewPage
+ =
+ lazy
+(() 
+=>
+ import
+(
+'src/pages/dashboard/new-page'
+));
+
+
+ 
+
+
+const
+ dashboardLayout
+ =
+ () 
+=>
+ (
+
+
+  <
+DashboardLayout
+>
+
+
+    <
+Suspense
+ fallback
+=
+{
+<
+LoadingScreen
+ />
+}
+>
+
+
+      <
+Outlet
+ />
+
+
+    </
+Suspense
+>
+
+
+  </
+DashboardLayout
+>
+
+
+);
+
+
+ 
+
+
+export
+ const
+ dashboardRoutes
+ =
+ [
+
+
+  {
+
+
+    path
+: 
+'dashboard'
+,
+
+
+    element
+: 
+CONFIG
+.
+auth
+.
+skip
+ ?
+ dashboardLayout
+() 
+:
+ <
+AuthGuard
+>
+{
+dashboardLayout
+()
+}
+</
+AuthGuard
+>,
+
+
+    children
+: [
+
+
+      { 
+element
+: <
+IndexPage
+ />, 
+index
+: 
+true
+ },
+
+
+      { 
+path
+: 
+'two'
+, 
+element
+: <
+PageTwo
+ /> },
+
+
+      { 
+path
+: 
+'three'
+, 
+element
+: <
+PageThree
+ /> },
+
+
+      { 
+path
+: 
+'new page'
+, 
+element
+: <
+NewPage
+ /> },
+
+
+      {
+
+
+        path
+: 
+'group'
+,
+
+
+        children
+: [
+
+
+          { 
+element
+: <
+PageFour
+ />, 
+index
+: 
+true
+ },
+
+
+          { 
+path
+: 
+'five'
+, 
+element
+: <
+PageFive
+ /> },
+
+
+          { 
+path
+: 
+'six'
+, 
+element
+: <
+PageSix
+ /> },
+
+
+        ],
+
+
+      },
+
+
+    ],
+
+
+  },
+
+
+];
+
+
+Add a new route (Next.js)
+
+
+
+
+create 
+src/app/dashboard/new-page/page.(jsx | tsx)
+
+
+https://nextjs.org/docs/app/building-your-application/routing/pages
+
+
+
+
+
+
+Set the index page
+Set default page when visit website.
+Check out the full and starter versions to see the difference
+export
+ const
+ routesSection
+ =
+ [
+
+
+ 
+
+
+    { 
+// Set index page with skip home page
+
+
+      path
+: 
+'/'
+,
+
+
+      element
+: <
+Navigate
+ to
+=
+{
+CONFIG
+.
+auth
+.
+redirectPath
+}
+ replace
+ />,
+
+
+    },
+
+
+    { 
+// Set index page with home page
+
+
+      path
+: 
+'/'
+,
+
+
+      element
+: (
+
+
+        <
+MainLayout
+>
+
+
+          <
+Outlet
+ />
+
+
+        </
+MainLayout
+>
+
+
+      ),
+
+
+      children
+: [{ 
+element
+: <
+HomePage
+ />, 
+index
+: 
+true
+ }],
+
+
+    },
+
+
+];
+src/routes/sections/index.js
+
+
+
+
+Usage
+import
+ Link
+ from
+ '@mui/material/Link'
+;
+
+
+import
+ { 
+RouterLink
+ } 
+from
+ 'src/routes/components'
+;
+
+
+ 
+
+
+<
+Link
+ component
+=
+{
+RouterLink
+}
+ href
+=
+"/new"
+ underline
+=
+"none"
+ variant
+=
+"subtitle2"
+>
+
+
+  Go to About us
+
+
+</
+Link
+>;
+
+
+
+
+Display with role
+https://minimals.cc/components/extra/navigation-bar
+https://minimals.cc/dashboard/permission
+const
+ navData
+ =
+ [
+
+
+  {
+
+
+    subheader
+: 
+'Marketing'
+,
+
+
+    items
+: [
+
+
+      {
+
+
+        title
+: 
+'Landing'
+,
+
+
+        path
+: 
+'/landing'
+,
+
+
+        icon
+: <
+Iconify
+ icon
+=
+"carbon:bat"
+ width
+=
+{
+1
+}
+ />,
+
+
+        roles
+: [
+'admin'
+],
+
+
+        caption
+: 
+'Display only admin role'
+,
+
+
+      },
+
+
+      {
+
+
+        title
+: 
+'Services'
+,
+
+
+        path
+: 
+'/services'
+,
+
+
+        icon
+: <
+Iconify
+ icon
+=
+"carbon:cyclist"
+ width
+=
+{
+1
+}
+ />,
+
+
+        roles
+: [
+'admin'
+, 
+'user'
+],
+
+
+      },
+
+
+    ],
+
+
+  },
+
+
+];
+config-navigation.js
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/api-calls/
+API Calls | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+API Calls
+
+
+
+
+Basic example
+import
+ useSWR
+ from
+ 'swr'
+;
+
+
+import
+ { 
+fetcher
+ } 
+from
+ 'src/utils/axios'
+;
+
+
+ 
+
+
+function
+ ProductList
+() {
+
+
+  const
+ { 
+data
+, 
+error
+, 
+isLoading
+ } 
+=
+ useSWR
+(
+'/api/product/list'
+, 
+fetcher
+);
+
+
+ 
+
+
+  if
+ (
+error
+) 
+return
+ <
+div
+>failed to load</
+div
+>;
+
+
+ 
+
+
+  if
+ (
+isLoading
+) 
+return
+ <
+div
+>loading...</
+div
+>;
+
+
+ 
+
+
+  return
+ (
+
+
+    <>
+
+
+      {
+data
+.
+products
+.
+map
+((
+product
+) 
+=>
+ (
+
+
+        <
+div
+ key
+=
+{
+product
+.
+id
+}
+>
+{
+product
+.
+name
+}
+</
+div
+>
+
+
+      ))
+}
+
+
+    </>
+
+
+  );
+
+
+}
+
+
+
+
+Set BaseURL
+REACT_APP_HOST_API
+=
+https:
+//www.your-domain.com
+.env
+const
+ axiosInstance
+ =
+ axios
+.
+create
+({ 
+baseURL
+: 
+process
+.
+env
+.
+REACT_APP_HOST_API
+ });
+src/utils/axios.js
+import
+ useSWR
+ from
+ 'swr'
+;
+
+
+import
+ axios
+, { 
+fetcher
+ } 
+from
+ 'src/utils/axios'
+;
+
+
+ 
+
+
+const
+ fetcher
+ =
+ (
+url
+) 
+=>
+ axios
+.
+get
+(
+url
+).
+then
+((
+res
+) 
+=>
+ res
+.
+data
+);
+
+
+ 
+
+
+function
+ ProductList
+() {
+
+
+  // const { data, error, isLoading } = useSWR(`https://www.your-domain.com/api/product/list`, fetcher);
+
+
+  const
+ { 
+data
+, 
+error
+, 
+isLoading
+ } 
+=
+ useSWR
+(
+`/api/product/list`
+, 
+fetcher
+);
+
+
+ 
+
+
+  if
+ (
+error
+) 
+return
+ <
+div
+>failed to load</
+div
+>;
+
+
+ 
+
+
+  if
+ (
+isLoading
+) 
+return
+ <
+div
+>loading...</
+div
+>;
+
+
+ 
+
+
+  return
+ (
+
+
+    <>
+
+
+      {
+data
+.
+products
+.
+map
+((
+product
+) 
+=>
+ (
+
+
+        <
+div
+ key
+=
+{
+product
+.
+id
+}
+>
+{
+product
+.
+name
+}
+</
+div
+>
+
+
+      ))
+}
+
+
+    </>
+
+
+  );
+
+
+}
+
+
+
+
+Without BaseURL
+We provide a demo API with a base URL. To avoid conflicts during development, you can work with parallel API calls without the base URL. You can replace it after development is complete.
+import
+ useSWR
+ from
+ 'swr'
+;
+
+
+import
+ axios
+ from
+ 'axios'
+;
+
+
+ 
+
+
+const
+ fetcher
+ =
+ (
+url
+) 
+=>
+ axios
+.
+get
+(
+url
+).
+then
+((
+res
+) 
+=>
+ res
+.
+data
+);
+
+
+ 
+
+
+function
+ ProductList
+() {
+
+
+  const
+ { 
+data
+, 
+error
+, 
+isLoading
+ } 
+=
+ useSWR
+(
+
+
+    `https://www.your-domain.com/api/product/list`
+,
+
+
+    fetcher
+
+
+  );
+
+
+ 
+
+
+  if
+ (
+error
+) 
+return
+ <
+div
+>failed to load</
+div
+>;
+
+
+ 
+
+
+  if
+ (
+isLoading
+) 
+return
+ <
+div
+>loading...</
+div
+>;
+
+
+ 
+
+
+  return
+ (
+
+
+    <>
+
+
+      {
+data
+.
+products
+.
+map
+((
+product
+) 
+=>
+ (
+
+
+        <
+div
+ key
+=
+{
+product
+.
+id
+}
+>
+{
+product
+.
+name
+}
+</
+div
+>
+
+
+      ))
+}
+
+
+    </>
+
+
+  );
+
+
+}
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/cdn-cgi/l/email-protection#2e5d5b5e5e415c5a6e43474047434f425d004d4d115d5b4c444b4d5a137563474047434f42730e685c41430e6d5b5d5a41434b5c
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+
+
+
+
+Email Protection
+
+
+You are unable to access this email address
+ minimals.cc
+
+
+
+
+
+
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. 
+You must enable Javascript in your browser in order to decode the e-mail address
+.
+
+
+If you have a website and are interested in protecting it in a similar way, you can 
+sign up for Cloudflare
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+
+
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 
+914f6d8c6bf8a777
+
+
+•
+
+
+
+      Your IP:
+      
+Click to reveal
+
+
+179.38.60.227
+
+
+•
+
+
+
+
+Performance & security by
+ 
+Cloudflare
+
+URL: https://docs.minimals.cc/mui-overrides/
+MUI Components Overrides | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Global overrides MUI components
+
+
+Overrides the components of the MUI in the directory 
+src/theme/core/components
+.
+
+
+
+
+styleOverrides
+https://mui.com/material-ui/customization/theme-components/#theme-style-overrides
+defaultProps
+https://mui.com/material-ui/customization/theme-components/#theme-default-props
+Example:
+// src/theme/core/components/appbar.tsx
+
+
+ 
+
+
+const
+ MuiAppBar
+: 
+Components
+<
+Theme
+>[
+'MuiAppBar'
+] 
+=
+ {
+
+
+  defaultProps
+: { 
+color
+: 
+'transparent'
+ },
+
+
+  styleOverrides
+: { 
+root
+: { 
+boxShadow
+: 
+'none'
+ } },
+
+
+};
+Reference:
+
+
+https://mui.com/components/
+
+
+https://mui.com/material-ui/customization/theme-components/
+
+
+https://mui.com/customization/theme-components/#global-style-overrides
+
+
+src
+
+
+  ├──
+ theme/core/components
+
+
+    ├──
+ accordion.jsx
+
+
+    ├──
+ alert.jsx
+
+
+    ├──
+ appbar.jsx
+
+
+    ├──
+ ...
+
+
+...
+Before Overrides (MUI theme)
+After Overrides (Minimal theme)
+
+
+
+
+
+
+The change will apply globally for MUI component.
+
+
+
+
+
+
+This helps you to deeply customize your style, to suit your design.
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/changelog/
+Changelog | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+v6.3.0
+
+
+Jan 01, 2025
+
+
+
+
+Update 
+src/auth/context/amplify/auth-provider.*
+.
+
+
+Update 
+src/auth/context/auth0/auth-provider.*
+.
+
+
+Update 
+src/auth/guard/guest-guard.*
+.
+
+
+Update 
+src/components/animate/scroll-progress/scroll-progress.*
+.
+
+
+Update 
+src/components/settings/**
+.
+
+
+Update 
+src/theme/core/components/**
+.
+
+
+Add 
+ErrorBoundary
+ router component for Vite.js (
+src/main.*
+).
+
+
+Update 
+slots
+ and 
+slotProps
+ 
+ListItemText
+.
+
+
+Update dependencies.
+
+
+
+
+
+
+v6.2.0
+
+
+Dec 06, 2024
+
+
+
+
+New
+ MUI v6.
+
+
+New
+ React router v7.
+
+
+New
+ Eslint v9 (Flat config).
+
+
+Public 
+hooks
+ and 
+utils
+ folder on npm (npm i minimal-shared).
+
+
+Update 
+src/theme
+.
+
+
+Update 
+src/layout
+.
+
+
+Update 
+src/components
+.
+
+
+Add new component 
+number input
+
+
+Add new example 
+pagination with API
+
+
+Add new example 
+layout
+
+
+Update folder API 
+minimal-api-dev-v6.2.0.zip
+.
+
+
+Remove 
+react-lazy-load-image-component
+.
+
+
+Refactor and simplify project code.
+
+
+Update dependencies.
+
+
+
+
+
+
+v6.1.0
+
+
+Aug 21, 2024
+
+
+
+
+Update 
+public
+.
+
+
+Update 
+src/theme
+.
+
+
+Update 
+src/layout
+.
+
+
+Update 
+src/global.css
+.
+
+
+Update 
+src/config-global.ts
+.
+
+
+Update 
+src/hooks/use-debounce.ts
+.
+
+
+Update 
+src/hooks/use-countdown.ts
+.
+
+
+Update 
+src/hooks/use-client-rect.ts
+.
+
+
+Update 
+src/components/map
+.
+
+
+Update 
+src/components/logo
+.
+
+
+Update 
+src/components/chart
+.
+
+
+Update 
+src/components/upload
+.
+
+
+Update 
+src/components/editor
+.
+
+
+Update 
+src/components/iconify
+.
+
+
+Update 
+src/components/carousel
+.
+
+
+Update 
+src/components/svg-color
+.
+
+
+Update 
+src/components/hook-form
+.
+
+
+Update 
+src/components/phone-input
+.
+
+
+Update 
+src/components/table/utils.ts
+.
+
+
+Update 
+src/components/country-select
+.
+
+
+Move 
+src/sections/auth
+ and 
+src/sections/auth-demo
+ into 
+src/auth/view
+.
+
+
+Update dependencies.
+
+
+
+
+
+
+v6.0.1
+
+
+Jun 16, 2024
+
+
+
+
+Vite.js
+
+
+Fix 
+src/components/animate/motion-lazy
+.
+
+
+Update example 
+src/sections/_examples/extra/multi-language-view/view
+.
+
+
+Update example 
+src/pages/components/extra/multi-language/index
+.
+
+
+Next.js
+
+
+Update example 
+src/sections/_examples/extra/multi-language-view/view
+.
+
+
+Update example 
+src/app/components/extra/multi-language/page
+.
+
+
+
+
+
+
+v6.0.0
+
+
+Jun 14, 2024
+
+
+
+
+Remove 
+lodash
+.
+
+
+Remove 
+prop-types
+.
+
+
+Replace 
+date-fns
+ with 
+dayjs
+.
+
+
+Replace 
+@hello-pangea/dnd
+ with 
+dnd-kit
+.
+
+
+Replace 
+notistack
+ with 
+sonner
+.
+
+
+Replace 
+react-quill
+ with 
+tiptap
+.
+
+
+Replace 
+react-slick
+ with 
+embla-carousel
+.
+
+
+Replace 
+yup
+ with 
+zod
+.
+
+
+Integration font with 
+@fontsource
+.
+
+
+Integration 
+react-phone-number-input
+.
+
+
+Migrate to 
+CssVarsProvider
+
+
+Update design.
+
+
+Update dependencies.
+
+
+Update eslint and prettier config.
+
+
+Refactor and simplify project code.
+
+
+Reimplement existing auth providers.
+
+
+
+
+
+
+v5.7.0
+
+
+Dec 11, 2023
+
+
+
+
+New
+ support next.js 14.
+
+
+New
+ component 
+Walktour
+.
+
+
+New
+ component 
+CountrySelect
+.
+
+
+New
+ method Supabase authenticate.
+
+
+Update 
+src/utils/format-number.ts
+.
+
+
+Update 
+src/utils/format-time.ts
+.
+
+
+Update 
+src/theme/overrides
+.
+
+
+Update 
+src/auth/context/amplify/auth-provider.tsx
+.
+
+
+Update 
+src/components/hook-form/rhf-autocomplete.tsx
+.
+
+
+Update 
+src/components/nav-basic
+.
+
+
+Update 
+src/components/progress-bar
+. (Next.js)
+
+
+Update 
+src/components/table/use-table.ts
+.
+
+
+Update 
+src/locales/config-lang.ts
+.
+
+
+Update 
+src/locales/i18n.ts
+.
+
+
+Fix Bug 
+src/sections/user/view/user-list-view.tsx
+. (tableData/dataFiltered)
+
+
+Fix Bug 
+src/sections/order/view/order-list-view.tsx
+. (tableData/dataFiltered)
+
+
+Fix Bug 
+src/sections/invoice/view/invoice-list-view.tsx
+. (tableData/dataFiltered)
+
+
+Migrate Product 
+Table
+ to 
+DataGrid
+.
+
+
+Update dependencies.
+
+
+
+
+
+
+v5.6.0
+
+
+Oct 08, 2023
+
+
+
+
+New
+ 
+src/components/nav-basic
+.
+
+
+Update 
+src/components/nav-section
+.
+
+
+Update 
+src/components/mega-menu
+.
+
+
+Update 
+src/theme
+.
+
+
+Update 
+src/auth/guard/auth-guard
+.
+
+
+Update 
+src/auth/guard/guest-guard
+.
+
+
+Update 
+src/locales/use-locales
+.
+
+
+Update 
+<RHFMultiSelect/>
+.
+
+
+Remove 
+<AuthConsumer/>
+.
+
+
+Remove 
+.eslintrc
+.
+
+
+Change external style import strategy
+
+
+Temporarily stop supporting 
+create-react-app
+ version (
+tracking
+).
+
+
+Update dependencies.
+
+
+
+
+
+
+v5.5.0
+
+
+Aug 30, 2023
+
+
+
+
+Update 
+src/components/progress-bar
+ (Next.js version only).
+
+
+Update 
+src/components/loading-screen/splash-screen.tsx
+.
+
+
+Update 
+src/theme/overrides/components/avatar.tsx
+.
+
+
+Update 
+src/layouts/_common/account-popover.tsx
+.
+
+
+Update 
+src/layouts/_common/searchbar/searchbar.js
+.
+
+
+Update 
+src/sections/chat/view/chat-view.tsx
+.
+
+
+Update 
+src/sections/chat/chat-message-input.tsx
+.
+
+
+Update 
+src/sections/chat/chat-message-item.tsx
+.
+
+
+Update 
+src/sections/chat/chat-nav-item.tsx
+.
+
+
+Update 
+src/sections/kanban/view/kanban-view.tsx
+.
+
+
+Fix bug dashboard layout 
+src/layouts/dashboard/layout.tsx
+.
+
+
+Update dependencies.
+
+
+
+
+
+
+v5.4.0
+
+
+Aug 10, 2023
+
+
+
+
+Update 
+src/hooks/use-local-storage.ts
+.
+
+
+Update 
+src/components/settings/context/settings-provider.tsx
+.
+
+
+Update 
+src/sections/checkout/context/checkout-provider.tsx
+.
+
+
+Update 
+src/locales/config-lang.ts
+.
+
+
+Update 
+src/locales/localization-provider.tsx
+.
+
+
+Update 
+src/components/animate/motion-lazy.tsx
+.
+
+
+Update 
+src/components/upload
+.
+
+
+Update 
+src/components/loading-screen/splash-screen.tsx
+.
+
+
+Update 
+src/components/progress-bar
+ (CRA / Vite version only).
+
+
+Update dependencies.
+
+
+[Figma]
+ Migrate to 
+variables
+.
+
+
+
+
+
+
+v5.3.0
+
+
+Jul 17, 2023
+
+
+
+
+Update 
+theme
+ folder.
+
+
+Rename folder 
+src/routes/hook
+ => 
+src/routes/hooks
+
+
+Fix 
+Right-to-left
+ (src/theme/options/right-to-left.tsx).
+
+
+Fix Next.js 
+Dark mode
+ (src/theme/next-emotion-cache.tsx).
+
+
+Update dependencies.
+
+
+
+
+
+
+v5.2.0
+
+
+Jul 04, 2023
+
+
+
+
+Completely remove redux.
+
+
+Migrate checkout 
+redux-slice
+ to 
+react-context
+.
+
+
+Update 
+src/auth/guard/guest-guard
+.
+
+
+Support 
+dynamic routes
+ with next 
+output: 'export
+.(
+tracking
+)
+
+
+Update dependencies.
+
+
+
+
+
+
+v5.1.0
+
+
+Jun 17, 2023
+
+
+
+
+Add Vite version.
+
+
+Migrate 
+redux
+ to 
+swr
+.
+
+
+Update 
+src/auth/guard/auth-guard.tsx
+.
+
+
+Update 
+src/layouts/auth/modern.tsx
+.
+
+
+Update 
+src/layouts/dashboard/main.tsx
+.
+
+
+Update 
+src/sections/auth/jwt/jwt-login-view.tsx
+.
+
+
+Update 
+src/sections/auth/jwt/jwt-register-view.tsx
+.
+
+
+Update 
+src/components/nav-section/mini/nav-item.tsx
+.
+
+
+Update 
+src/sections/auth/amplify/amplify-login-view.tsx
+.
+
+
+Update 
+src/sections/auth/firebase/firebase-login-view.tsx
+.
+
+
+Update 
+src/components/nav-section/horizontal/nav-item.tsx
+.
+
+
+Update 
+src/components/settings/drawer/settings-drawer.tsx
+.
+
+
+Update dependencies.
+
+
+
+
+
+
+v5.0.0
+
+
+Jun 05, 2023
+
+
+
+
+Support 
+Next.js
+ appDir version.
+
+
+Add Order pages.
+
+
+Add Job pages.
+
+
+Add Tour pages.
+
+
+Improve the performance.
+
+
+Update project folder structure.
+
+
+Refactor authentication flows.
+
+
+Refactor and simplify project code.
+
+
+Update dependencies.
+
+
+Update Figma.
+
+
+Discontinue support for Sketch files.
+
+
+
+
+
+
+v4.3.0
+
+
+Feb 21, 2023
+
+
+
+
+Add 
+src/components/scroll-progress
+.
+
+
+Update 
+src/components/chart/useChart
+.
+
+
+Update some rule in 
+Yup
+ (remove 
+nullable()
+, update types...).
+
+
+Upgrade dependencies to the latest versions.
+
+
+
+
+
+
+v4.2.0
+
+
+Jan 18, 2023
+
+
+
+
+Update 
+src/@types/calendar
+.
+
+
+Update 
+src/pages/dashboard/CalendarPage
+.
+
+
+Update 
+src/sections/@dashboard/calendar
+.
+
+
+Update 
+src/redux/slices/calendar
+.
+
+
+Update 
+src/hooks/useOffSetTop
+.
+
+
+Update 
+src/auth/FirebaseContext
+.
+
+
+Update 
+src/components/scrollbar
+.
+
+
+Update 
+src/sections/home/HomeHero
+.
+
+
+Update 
+src/components/carousel/CarouselDots
+.
+
+
+Update 
+src/components/custom-breadcrumbs/LinkItem
+.
+
+
+Update 
+src/sections/@dashboard/invoice/form/InvoiceAddressListDialog
+.
+
+
+Update types 
+type RHFMultiSelectProps
+ in 
+src/components/hook-form/RHFSelect
+.
+
+
+Update 
+import 'simplebar/src/simplebar.css';
+ =>
+import 'simplebar-react/dist/simplebar.min.css';
+
+
+Update 
+next.config.js
+ (Next.js).
+
+
+Update 
+.eslintignore
+ (Next.js).
+
+
+Upgrade dependencies to the latest versions.
+
+
+
+
+
+
+v4.1.0
+
+
+Nov 26, 2022
+
+
+
+
+NEW
+ Support next.js 13.
+
+
+Update 
+src/components/lightbox/*
+.
+
+
+Update 
+src/components/markdown/*
+.
+
+
+Update 
+src/components/hook-form/*
+.
+
+
+Update 
+src/components/editor/Editor
+.
+
+
+Update 
+src/components/chart/useChart
+.
+
+
+Update 
+src/components/nav-section/mini/NavList
+.
+
+
+Update 
+src/components/custom-avatar/CustomAvatar
+.
+
+
+Update 
+src/components/nav-section/horizontal/NavList
+.
+
+
+Update 
+src/components/date-range-picker/useDateRangePicker
+.
+
+
+Update 
+src/components/loading-screen/LoadingScreen
+ (cra_version only).
+
+
+Update 
+src/redux
+.
+
+
+Update 
+src/theme
+.
+
+
+Update 
+src/App
+ (cra_version only).
+
+
+Update 
+src/index
+ (cra_version only).
+
+
+Update eslint.
+
+
+Migrate 
+react-beautiful-dnd
+ => 
+@hello-pangea/dnd
+.
+
+
+Migrate 
+react-image-lightbox
+ => 
+yet-another-react-lightbox
+.
+
+
+Improve & rename folder structure.
+
+
+Upgrade dependencies to the latest versions.
+
+
+Design:
+ Update Sketch v4.
+
+
+
+
+
+
+v4.0.0
+
+
+Oct 15, 2022
+
+
+
+
+NEW
+ 
+Home page
+.
+
+
+NEW
+ 
+General file page
+.
+
+
+NEW
+ 
+File manager page
+.
+
+
+NEW
+ 
+Components date range picker
+.
+
+
+NEW
+ 
+Components nav section mini
+.
+
+
+Add 
+Calendar filters
+.
+
+
+Add 
+Reset Button
+ when filters 
+user list
+.
+
+
+Add 
+Reset Button
+ when filters 
+product list
+.
+
+
+Add 
+Reset Button
+ when filters 
+invoice list
+.
+
+
+Add confirmation dialog when deleting item.
+
+
+Add 
+src/components/hook-form/RHFAutocomplete
+.
+
+
+Add 
+src/components/file-thumbnail
+.
+
+
+Update 
+src/layouts
+.
+
+
+Update 
+src/theme
+.
+
+
+Remove 
+src/components/Page
+.
+
+
+Remove 
+src/components/emoji-picker
+.
+
+
+Remove 
+src/components/SocialsButton
+.
+
+
+Remove 
+src/components/TextIconLabel
+.
+
+
+Remove 
+src/components/CopyClipboard
+.
+
+
+Remove 
+src/contexts/CollapseDrawerContext
+.
+
+
+Remove and add some new hooks.
+
+
+Improve & rename folder structure.
+
+
+Upgrade dependencies to the latest versions.
+
+
+Design:
+ Update Figma (Sketch no update)
+
+
+
+
+
+
+v3.5.0
+
+
+Jul 04, 2022
+
+
+
+
+Support React 18.
+
+
+Resolve warning npm vulnerabilities when install. (React script version / skip if using yarn).
+
+
+Add 
+src/components/organizational-chart
+ (
+view
+).
+
+
+Update 
+theme / overrides
+.
+
+
+Update 
+src/guards/GuestGuard
+.
+
+
+Update 
+src/contexts/AwsCognitoContext
+ (TS version).
+
+
+Update 
+src/components/emoji-picker
+.
+
+
+Update 
+src/components/Image
+.
+
+
+Update 
+src/components/Scrollbar
+ (TS version).
+
+
+Update 
+src/components/hook-form
+.
+
+
+Update 
+src/components/map
+.
+
+
+Update 
+src/components/nav-section
+. (Infinity menu level support)
+
+
+Update 
+src/layouts/main/MenuDesktop
+.
+
+
+Update 
+src/layouts/main/MenuMobile
+.
+
+
+Improve filter products 
+src/pages/dashboard/EcommerceShop
+.
+
+
+Improve invoice create function.
+
+
+Remove 
+src/utils/mapboxgl
+.
+
+
+Improve folder structure.
+
+
+Upgrade some dependencies to the latest versions.
+
+
+
+
+
+
+v3.4.0
+
+
+Apr 11, 2022
+
+
+
+
+Add 
+src/pages/auth/NewPassword
+.
+
+
+Add 
+src/pages/Page403
+.
+
+
+Update 
+/src/components/hook-form/*
+.
+
+
+Update 
+/src/components/nav-section/*
+.(support for translation, role based guard)
+
+
+Update 
+/src/components/settings/*
+.
+
+
+Update 
+/src/components/upload/*
+.
+
+
+Update 
+/src/components/table/*
+.
+
+
+Update 
+/src/components/EmptyContent
+.
+
+
+Update 
+/src/components/Label
+.
+
+
+Update 
+/src/components/MenuPopover
+.
+
+
+Update 
+/src/components/LightboxModal
+.
+
+
+Update 
+/src/components/LoadingScreen
+.
+
+
+Update 
+/src/components/NotistackProvider
+.
+
+
+Update 
+/src/contexts/SettingsProvider
+.
+
+
+Update 
+/src/guards/AuthGuard
+.
+
+
+Update 
+/src/guards/RoleBasedGuard
+.
+
+
+Update 
+/src/hooks/useLocales
+.
+
+
+Update 
+/src/locales/*
+.
+
+
+Update 
+src/pages/dashboard/Kanban
+.
+
+
+Update 
+src/pages/dashboard/GeneralAnalytics
+.
+
+
+Update 
+src/pages/dashboard/GeneralApp
+.
+
+
+Update 
+src/pages/dashboard/GeneralBanking
+.
+
+
+Update 
+src/pages/dashboard/GeneralBooking
+.
+
+
+Update 
+src/utils/jwt.ts
+
+
+Update 
+src/config.ts
+
+
+Improve folder structure
+
+
+Upgrade some dependencies to the latest versions.
+
+
+
+
+
+
+v3.3.0
+
+
+Mar 12, 2022
+
+
+
+
+Add 
+src/components/table/TableSkeleton
+.
+
+
+Update 
+src/components/table/TableMoreMenu
+.
+
+
+Change 
+src/components/table/TableSearchNotFound
+ => 
+src/components/table/TableNoData
+.
+
+
+Update 
+src/sections/@dashboard/e-commerce/product-list/ProductTableRow
+.
+
+
+Update 
+src/sections/@dashboard/user/list/UserTableRow
+.
+
+
+Update 
+nextjs_TS/src/sections/@dashboard/invoice/list/InvoiceTableRow
+.
+
+
+Update 
+InvoiceList
+ page.
+
+
+Update 
+UserList
+ page.
+
+
+Update 
+EcommerceProductList
+ page.
+
+
+Update 
+logout
+in 
+src/contexts/Auth0Context
+.
+
+
+Demo handle loading 
+EcommerceProductList
+ (
+https://minimals.cc/dashboard/e-commerce/list/
+).
+
+
+Upgrade some dependencies to the latest versions.
+
+
+
+
+
+
+v3.2.0
+
+
+Mar 4, 2022
+
+
+
+
+Add components 
+table
+.
+
+
+Add hooks 
+useTable
+.
+
+
+Add hooks 
+useTabs
+.
+
+
+Add hooks 
+useToggle
+.
+
+
+Add categories menu mobile in 
+faqs
+ page.
+
+
+Add Management Invoice part (
+view
+).
+
+
+Update 
+User List
+ page (
+view
+).
+
+
+Update 
+Product List
+ page (
+view
+).
+
+
+Upgrade some dependencies to the latest versions.
+
+
+Update design file.
+
+
+
+
+
+
+v3.1.0
+
+
+Feb 24, 2022
+
+
+
+
+
+
+Support react-scripts v5.0.0 (
+migrate to react-script v5.0.0
+).
+
+
+
+
+
+
+Update 
+.eslintrc
+.
+
+
+
+
+
+
+Update 
+src/utils/jwt
+.
+
+
+
+
+
+
+Upgrade some dependencies to the latest versions.
+
+
+
+
+
+
+Add 
+src/utils/mapboxgl
+.
+
+
+
+
+In 
+src/sections/contact/ContactMap
+
+
+
+
+import
+ 'src/utils/mapboxgl'
+;
+
+
+
+
+
+
+Fix handdle alert error:
+
+
+
+
+In 
+src/sections/auth/register/RegisterForm
+
+
+In 
+src/sections/auth/login/LoginForm
+
+
+
+
+setError
+(
+'afterSubmit'
+, 
+error
+);
+
+
+// to
+
+
+setError
+(
+'afterSubmit'
+, {
+
+
+  ...
+error
+,
+
+
+  message
+: 
+error
+.
+message
+,
+
+
+});
+
+
+
+
+
+
+Update In 
+src/layouts/dashboard/navbar/NavbarHorizontal
+
+
+const
+ RootStyle
+ =
+ styled
+(
+'div'
+)(({ 
+theme
+ }) 
+=>
+({})
+
+
+// to
+
+
+const
+ RootStyle
+ =
+ styled
+(
+AppBar
+)(({ 
+theme
+ }) 
+=>
+({})
+
+
+
+
+
+
+Next.js
+
+
+
+
+Change 
+import { yupResolver } from '@hookform/resolvers/yup/dist/yup'
+ to 
+import { yupResolver } from '@hookform/resolvers/yup'
+.
+
+
+
+
+
+
+v3.0.0
+
+
+Dec 23, 2021
+
+
+
+
+NEW
+ Add Next.JS full version for Javascript.
+
+
+NEW
+ Migrate all 
+formik form
+ to 
+react-hook-form
+.
+
+
+Add 
+src/components/hook-form
+ as fast field support for react-hook-form (use version 
+2.8.0
+ if you like working with formik).
+
+
+Add 
+vertical-layout
+ with 
+navbar-horizontal
+ in settings (apply for dashboard layout only).
+
+
+Update 
+src/components/nav-section
+.
+
+
+Update 
+src/components/upload
+.
+
+
+Update 
+src/components/MenuPopover
+.
+
+
+Update 
+src/theme/overrides
+. (can copy and override).
+
+
+Update 
+src/theme/shadows
+ (add value 
+card
+, 
+dialog
+,
+dropdown
+).
+
+
+Update 
+src/components/SearchNotFound
+.
+
+
+Update 
+src/contexts/FirebaseContext
+ (support for firebase v9).
+
+
+Move 
+src/theme/globalStyles
+ to 
+src/theme/overrides/CssBaseline
+.
+
+
+Move 
+components overview
+ to next.js source.
+
+
+Upgrade some dependencies to the latest versions.
+
+
+
+
+
+
+v2.8.0
+
+
+Dec 14, 2021
+
+
+
+
+NEW
+ - Add Next.JS full version (TypeScript only).
+
+
+Fix 
+src/components/settings
+ on Safari (Can be copied and overwritten).
+
+
+Improve the blog.
+
+
+Improve 
+src/guards/AuthGuard
+.
+
+
+Improve 
+src/pages/auth/VerifyCode
+ (support copy and next focus input when type).
+
+
+Update 
+handleLogout
+ in 
+src/layouts/dashboard/header/AccountPopover
+.
+
+
+Update 
+src/theme/overrides/Autocomplete
+.
+
+
+Support external link 
+full_version_TS/src/components/nav-section/NavItem
+.
+
+
+Upgrade some dependencies to the latest versions.
+
+
+
+
+
+
+v2.7.0
+
+
+Dec 7, 2021
+
+
+Design
+
+
+
+
+Figma
+ support full dark mode and mobile version (
+Learn more
+)
+
+
+Sketch
+ no change
+
+
+
+
+Code
+
+
+
+
+Add 
+src/components/Image
+ support lazyload and 
+aspect ratio
+
+
+Add 
+src/components/TextMaxLine
+ 
+(learn)
+
+
+Update and support 
+nav-section
+ 3 level item.
+
+
+Update 
+src/components/LightboxModal
+.
+
+
+Update 
+src/components/SvgIconStyle
+.
+
+
+Update 
+src/components/Scrollbar
+.
+
+
+Upgrade 
+src/routes
+.
+
+
+Upgrade 
+src/layouts
+.
+
+
+Update 
+src/guards/AuthGuard
+.
+
+
+Update 
+src/components/settings
+
+
+Update 
+src/theme
+ (can copy and replace)
+
+
+
+
+Remove 
+src/theme/shape
+
+
+borderRadiusSm => theme.shape.borderRadius * 1.5
+
+
+borderRadiusMd => theme.shape.borderRadius * 2
+
+
+
+
+
+
+Remove 
+src/components/@material-extend
+
+
+
+
+Move 
+src/components/@material-extend/MAvatar
+ => 
+src/components/Avatar
+.
+
+
+Move 
+src/components/@material-extend/MBreadcrumbs
+ => 
+src/components/Breadcrumbs
+.
+
+
+Change 
+src/components/@material-extend/MFab
+ => 
+src/components/animate/FabButtonAnimate
+.
+
+
+Change 
+src/components/@material-extend/MIconButton
+ => 
+src/components/animate/IconButtonAnimate
+.
+
+
+Change 
+src/components/@material-extend/MHidden
+ => 
+src/hooks/useResponsive
+.
+
+
+
+
+
+
+Remove 
+src/components/LazySize
+
+
+Remove 
+src/components/draft
+
+
+Remove 
+src/layouts/AuthLayout
+
+
+Upgrade 
+src/components/animate
+.
+
+
+
+
+Wrap 
+MotionLazyContainer
+ in 
+src/App
+
+
+Change 
+<motion.div>
+ => 
+<m.div>
+/ 
+<motion.a>
+ => 
+<m.a>
+...
+
+
+
+
+
+
+
+
+// before
+
+
+variants
+ =
+ { 
+varFadeInUp
+ }
+
+
+ 
+
+
+// after
+
+
+variants
+ =
+ {
+
+
+  varFade
+({
+
+
+    distance
+:
+120
+,
+
+
+    durationIn
+:
+1
+,
+
+
+    durationOut
+:
+0.5
+,
+
+
+    easeIn
+:
+'easeIn'
+,
+
+
+    easeOut
+:
+'easeInOut'
+,
+
+
+    }).inUp }
+
+
+
+
+Migrate 
+@iconify/react
+ to use via API
+
+
+
+
+// before
+
+
+import
+ { 
+Icon
+ } 
+from
+ '@iconify/react'
+;
+
+
+import
+ menu2Fill
+ from
+ '@iconify/icons-eva/menu-2-fill'
+;
+
+
+ 
+
+
+<
+Icon
+ icon
+=
+{
+menu2Fill
+}
+ />;
+
+
+ 
+
+
+// after
+
+
+import
+ Iconify
+ from
+ 'src/components/Iconify'
+;
+
+
+ 
+
+
+<
+Iconify
+ icon
+=
+"eva:bell-fill"
+ sx
+=
+{
+{ 
+width
+: 
+20
+, 
+height
+: 
+20
+, 
+color
+: 
+'red'
+ }
+}
+ />;
+
+
+
+
+Improve folder structure
+
+
+Upgrade some dependencies to the latest versions
+
+
+
+
+
+
+v2.6.0
+
+
+Sep 18, 2021
+
+
+
+
+
+
+Support MUI v5.0.0 official release
+
+
+
+
+
+
+Upgrade dependencies 
+react-router
+ 
+changelog
+
+
+
+
+
+
+Change dependencies 
+notistack5
+ => 
+notistack
+
+
+
+
+
+
+Change dependencies 
+@material-ui/core
+ => 
+@mui/material
+
+
+
+
+
+
+// Example
+
+
+// Learn more : https://github.com/mui-org/material-ui/blob/master/CHANGELOG.md
+
+
+import
+ {
+Button
+} 
+from
+ '@material/core'
+; 
+=>
+ import
+ {
+Button
+} 
+from
+ '@mui/material'
+;
+
+
+
+
+Change dependencies 
+@material-ui/icons
+ => 
+@mui/icons-material
+
+
+Change dependencies 
+@material-ui/lab
+ => 
+@mui/lab
+
+
+Change dependencies 
+@material-ui/styles
+ => 
+@mui/styles
+
+
+Change dependencies 
+@material-ui/system
+ => 
+@mui/system
+
+
+Change dependencies 
+@material-ui/utils
+ => 
+@mui/utils
+
+
+Change dependencies 
+@material-ui/data-grid 
+=> 
+@mui/data-grid
+
+
+Change 
+styleProps
+ => 
+ownerState
+
+
+Update 
+src/theme/globalStyles
+
+
+Update 
+src/components/NotistackProvider
+
+
+Update 
+src/components/LoadingScreen
+
+
+Update 
+src/components/LightboxModal
+
+
+Update 
+src/components/BaseOptionChart
+
+
+Update 
+src/routes/index
+
+
+Update 
+src/theme/overrides
+
+
+Remove 
+GlobalStyles
+ in 
+src/theme/index
+
+
+Add 
+GlobalStyles
+, 
+ProgressBarStyle
+, 
+BaseOptionChartStyle
+ in 
+src/App
+
+
+Upgrade some dependencies to the latest versions
+
+
+More changelog 
+MUI
+
+
+
+
+
+
+v2.5.0
+
+
+Aug 18, 2021
+
+
+
+
+Add example for 
+Form Validation
+
+
+Update 
+src/components/editor/draft
+
+
+Update 
+src/components/editor/quill
+
+
+Update 
+src/components/RtlLayout
+
+
+Update 
+src/utils/formatTime
+
+
+Update type 
+src/components/Markdown
+
+
+Improve version 
+demo_next
+ (Issuse css first render)
+
+
+Upgrade some dependencies to the latest versions
+
+
+
+
+
+
+v2.4.0
+
+
+Aug 7, 2021
+
+
+
+
+Add page dashboard banking
+
+
+Add page dashboard booking
+
+
+Update landing page
+
+
+Update 
+src/theme/overrides/Card
+
+
+Update 
+src/theme/overrides/Alert
+
+
+Update 
+src/theme/overrides/DataGrid
+
+
+Update 
+src/components/editor/draft
+
+
+Update 
+src/theme/palette
+
+
+Update 
+src/theme/typography
+
+
+Update 
+src/components/carousel/controls
+
+
+Update 
+src/components/Markdown
+
+
+Update 
+src/@types/mega-menu
+
+
+Upgrade some dependencies to the latest versions
+
+
+Replace 
+faker
+ dependencies =>
+src/utils/mock-data
+
+
+More changelog 
+React Material UI
+
+
+
+
+
+
+v2.3.0
+
+
+Jul 23, 2021
+
+
+
+
+Support MUI v5.0.0-beta.1
+
+
+Support layout stretch in settings
+
+
+Support localization for MUI components 
+https://next.material-ui.com/guides/localization/#main-content
+
+
+Support mini Menu (Dashboard sidebar) 
+demo
+
+
+Add component DataGrid example 
+demo
+
+
+Remove 
+MButton
+, 
+MTimelineDot
+, 
+MChip
+, 
+MBadge
+, 
+MButtonGroup
+, 
+MCircularProgress
+, 
+MLinearProgress
+, 
+MRadio
+, 
+MSwitch
+, 
+MCheckbox
+ form 
+src/components/@material-extend
+ (MUI v5.0.0-beta.1 is now supported)
+
+
+Changes some illustration
+
+
+Change dependencies 
+notistack
+ to 
+notistack5
+ (for support MUI v5.0.0-beta.1)
+
+
+Update landing page
+
+
+Upgrade some dependencies to the latest versions
+
+
+
+
+
+
+v2.2.0
+
+
+Jun 25, 2021
+
+
+
+
+Add kanban board
+
+
+Upgrade some dependencies to the latest versions
+
+
+
+
+
+
+v2.1.0
+
+
+May 22, 2021
+
+
+
+
+Add primary color change support
+
+
+Add guard based role support
+
+
+Add page about us
+
+
+Add page contact us
+
+
+Add page faqs
+
+
+Add component mega menu
+
+
+Add method auth auth0
+
+
+Add method auth aws cognito
+
+
+Add 
+<MHidden>
+into 
+src/components/@material-extend
+ support v33
+
+
+Update folder simple_version
+
+
+Update folder simple_next_js
+
+
+Update some components from 
+src/components
+
+
+Upgrade to react router v6
+
+
+Upgrade dependencies to the latest versions
+
+
+Change some layouts and graphic
+
+
+Migrate some components to the context instead of redux (auth, settings)
+
+
+Improve folder structure
+
+
+Clean code
+
+
+
+
+
+
+v2.0.0
+
+
+Apr 18, 2021
+
+
+
+
+Add 
+Typescript
+ support
+
+
+Add a simple_version example for next js
+
+
+Add animation examples
+
+
+Update package.json
+
+
+Upgrade to calendar v5
+
+
+Upgrade dependencies to the latest versions
+
+
+Remove google map
+
+
+Remove recharts
+
+
+Improve routers
+
+
+Improve folder structure
+
+
+Change the directory tree structure
+
+
+Clean code
+
+
+
+
+
+
+v1.2.0
+
+
+Mar 1, 2021
+
+
+
+
+Add design Figma source file (variants and auto layout)
+
+
+Add Right-to-Left layout support
+
+
+Add JWT login support (see in doc Authentication)
+
+
+Add simple version
+
+
+Update components override
+
+
+Update 
+.babelrc
+
+
+Update 
+.eslintrc
+
+
+Update 
+jsconfig.json
+
+
+Update 
+package.json
+
+
+Upgraded depdendecy
+
+
+Change 
+import xxx from '~/...'
+ 
+to import xxx from 'src/...'
+
+
+Improve folder structure
+
+
+
+
+
+
+v1.1.0
+
+
+Feb 3, 2021
+
+
+
+
+Depdendecy versions 
+@material-ui
+ from 5.0.0-alpha.23 to 5.0.0-alpha.24
+
+
+Fix the injection order of the CSS with yarn. JSS and emotion are still cohabitating until v5 reaches a stable version. We need to tell emotion to inject before JSS
+
+
+Fix layout doc 
+src/layouts/DocsLayout
+ breakpoints
+
+
+Fix double scroll bar on mobile 
+src/components/Scrollbars.js
+
+
+Improvement Carousel implementation
+
+
+
+
+
+
+v1.0.0
+
+
+Jan 26, 2021
+
+
+Initial release.
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/package/
+Package & License | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Package & License
+
+
+Summary of resources and licenses:
+
+
+
+
+All licenses do not apply to open source.
+
+
+One licenses / one end product (3 licenses / 3 products...).
+
+
+Standard / Plus
+ license used in free products (Internal management...).
+
+
+Extended
+ license used in charge products, collect fees from users (SAAS...).
+
+
+
+
+
+
+Standard license
+Use for 
+free
+ products.
+Minimal_Javascript
+
+
+  ├─
+ next-js
+
+
+  ├─
+ vite-js
+
+
+  ├─
+ starter-next-js
+
+
+  ├─
+ starter-vite-js
+(CRA) create-react-app has not been maintained for a long time.
+ Migrating to vite.js or next.js is (recommended)
+If you want to use CRA version please check here
+ 
+migrate to CRA
+ 
+Learn more:
+ 
+https://github.com/reactjs/react.dev/pull/5487
+
+
+
+
+Plus license
+Use for 
+free
+ products.
+Minimal_Javascript
+
+
+  ├─
+ next-js
+
+
+  ├─
+ vite-js
+
+
+  ├─
+ starter-next-js
+
+
+  ├─
+ starter-vite-js
+
+
+ 
+
+
+Minimal_Typescript
+
+
+  ├─
+ next-ts
+
+
+  ├─
+ vite-ts
+
+
+  ├─
+ starter-next-ts
+
+
+  ├─
+ starter-vite-ts
+
+
+ 
+
+
+Minimal_Design
+
+
+  ├─
+ Figma
+ file
+
+
+
+
+Extended license
+Use for 
+charge
+ products
+Minimal_Javascript
+
+
+  ├─
+ next-js
+
+
+  ├─
+ vite-js
+
+
+  ├─
+ starter-next-js
+
+
+  ├─
+ starter-vite-js
+
+
+ 
+
+
+Minimal_Typescript
+
+
+  ├─
+ next-ts
+
+
+  ├─
+ vite-ts
+
+
+  ├─
+ starter-next-ts
+
+
+  ├─
+ starter-vite-ts
+
+
+ 
+
+
+Minimal_Design
+
+
+  ├─
+ Figma
+ file
+
+
+
+
+*Note:
+
+
+
+
+next-ts
+, 
+vite-ts
+ This is 
+full version
+ like you see at: 
+https://minimals.cc
+
+
+starter-next-ts
+, 
+starter-vite-ts
+ This is 
+starter version
+ like you see at: 
+https://starter.minimals.cc
+
+
+To remove unnecessary components, a 
+starter version
+ is referenced from 
+full version
+.
+
+
+In 
+starter version
+ you can add any component you want.
+
+
+
+
+
+
+
+
+If your product is free, you can use a Standard or Plus license.
+
+
+
+
+
+
+If your product collects fees from users you must use an 
+Extended
+ license.
+
+
+
+
+
+
+Each license corresponds to one product, if you want to build 3 products you need to buy 3 licenses.
+
+
+
+
+
+
+
+
+Learn more: 
+license
+© All rights reserved.
+Contact
+Home
+
+URL: https://mui.com/components/
+Components - MUI
+Skip to content
+Products
+Docs
+Pricing
+About us
+Blog
+Products
+MUI Core
+Ready-to-use foundational React components, free forever.
+MUI X
+Advanced and powerful components for complex use cases.
+Templates
+Fully built templates for your application.
+Design Kits
+Material UI components in your favorite design tool.
+Toolpad
+Beta
+Components and tools for dashboards and internal apps.
+Docs
+Material UI
+Component library that implements Google's Material Design.
+Joy UI
+Component library that implements MUI's own in-house design principles.
+MUI Base
+Unstyled React components and low-level hooks.
+MUI System
+CSS utilities for rapidly laying out custom designs.
+MUI X
+Advanced components for complex use cases.
+Toolpad
+Beta
+Components and tools for dashboards and internal apps.
+Pricing
+About us
+Blog
+All Components
+All components
+Inputs
+Autocomplete
+Button
+Button Group
+Checkbox
+Floating Action Button
+Radio Group
+Rating
+Select
+Slider
+Switch
+Text Field
+Transfer List
+Toggle Button
+Data display
+Avatar
+Badge
+Chip
+Divider
+Icons
+Material Icons
+List
+Table
+Tooltip
+Typography
+Feedback
+Alert
+Backdrop
+Dialog
+Progress
+Skeleton
+Snackbar
+Surfaces
+Accordion
+App Bar
+Card
+Paper
+Navigation
+Bottom Navigation
+Breadcrumbs
+Drawer
+Link
+Menu
+Pagination
+Speed Dial
+Stepper
+Tabs
+Layout
+Box
+Container
+Grid
+Grid v2
+Stack
+Image List
+Hidden
+Utils
+Click-Away Listener
+CSS Baseline
+Modal
+No SSR
+Popover
+Popper
+Portal
+Textarea Autosize
+Transitions
+useMediaQuery
+MUI X
+Data Grid
+Date & Time Pickers
+Charts
+Tree View
+Toolpad Core
+Dashboard Layout
+Sign-in Page
+Lab
+About the lab 🧪
+Masonry
+Timeline
+Keep up to date
+Join our newsletter for regular updates. No spam ever.
+Your email
+Subscribe
+Products
+Material UI
+Base UI
+MUI X
+Toolpad
+Resources
+Material Icons
+Templates
+Components
+Customization
+Design Kits
+Explore
+Documentation
+Store
+Blog
+Showcase
+Roadmap
+Company
+About
+Vision
+Careers
+ 
+Hiring
+Support
+Privacy policy
+Contact us
+Copyright © 
+2025
+ Material UI SAS, trading as MUI.
+
+URL: https://docs.minimals.cc/multi-language/
+Multi Language | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Multi Language
+
+
+
+
+Setup / Remove
+Search with keyword 
+src/locales
+ then setup the relevant components.
+
+
+
+
+Add new content
+{
+
+
+  "heading"
+: 
+"Lorem Ipsum is simply dummy text of the printing and typesetting industry"
+,
+
+
+  "nested"
+: {
+
+
+    "nested1"
+: 
+"nested En"
+
+
+  }
+
+
+}
+src/locales/en.json
+{
+
+
+  "heading"
+: 
+"Le Lorem Ipsum est simplement du faux texte employé dans la composition et la mise en page avant impression"
+,
+
+
+  "nested"
+: {
+
+
+    "nested1"
+: 
+"nested Fr"
+
+
+  }
+
+
+}
+src/locales/fr.json
+
+
+
+
+Usage
+import
+ { 
+useLocales
+, 
+useTranslate
+ } 
+from
+ 'src/locales'
+;
+
+
+ 
+
+
+function
+ MultiLanguage
+() {
+
+
+  const
+ { 
+t
+, 
+onChangeLang
+ } 
+=
+ useTranslate
+();
+
+
+ 
+
+
+  const
+ { 
+allLang
+, 
+currentLang
+ } 
+=
+ useLocales
+();
+
+
+ 
+
+
+  return
+ (
+
+
+    <>
+
+
+      <
+RadioGroup
+ row
+ value
+=
+{
+currentLang
+.
+value
+}
+ onChange
+=
+{
+(
+event
+) 
+=>
+ onChangeLang
+(
+event
+.
+target
+.
+value
+)
+}
+>
+
+
+        {
+allLang
+.
+map
+((
+lang
+) 
+=>
+ (
+
+
+          <
+FormControlLabel
+ key
+=
+{
+lang
+.
+label
+}
+ value
+=
+{
+lang
+.
+value
+}
+ label
+=
+{
+lang
+.
+label
+}
+ control
+=
+{
+<
+Radio
+ />
+}
+ />
+
+
+        ))
+}
+
+
+      </
+RadioGroup
+>
+
+
+ 
+
+
+      <
+Typography
+ variant
+=
+"h2"
+>
+{
+t
+(
+'heading'
+)
+}
+</
+Typography
+>
+
+
+      <
+Typography
+ variant
+=
+"body2"
+>
+{
+t
+(
+'nested.nested1'
+)
+}
+</
+Typography
+>
+
+
+    </>
+
+
+  );
+
+
+}
+
+
+
+
+Reference:
+
+
+
+
+https://minimals.cc/components/extra/multi-language
+
+
+https://react.i18next.com/
+
+
+https://mui.com/material-ui/guides/localization/#main-content
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/quick-start/
+Quick Start | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Quick Start
+
+
+
+
+1.Requirements
+
+
+
+
+Node.js
+ 20.x (recommended).
+
+
+Yarn
+ (recommended).
+
+
+Do not delete the any file in (
+package-lock.json
+ / 
+yarn.lock
+) the folder.
+
+
+When 
+copying
+ folders remember to also copy hidden files like 
+.env
+. This is important because 
+.env
+ files often contain environment variables that are crucial for the application to run correctly.
+
+
+
+
+
+
+2.Installation
+
+
+a.Start project:
+
+
+Watch video
+
+
+ Version
+Script
+Next.js
+|
+Vite.js
+(JavaScript / TypeScript)
+Install
+yarn install
+ or 
+npm i
+Start
+yarn dev
+ or 
+npm run dev
+Build
+yarn build
+ or 
+npm run build
+
+
+
+
+For the case of using 
+pnpm
+ instead of 
+npm
+ or 
+yarn
+ (
+migration guide
+)
+
+
+For the case if you create 
+new folder
+ and 
+copy
+ files (
+guide
+)
+
+
+
+
+
+
+b.Start server:
+
+
+By default we provide demo API from our server. To avoid interruptions during development, you should run it on your local server 
+start local server
+.
+
+
+Watch video
+
+
+
+
+(CRA) create-react-app has not been maintained for a long time.
+ Migrating to vite.js or next.js is (recommended)
+If you want to use CRA version please check here
+ 
+migrate to CRA
+ 
+Learn more:
+ 
+https://github.com/reactjs/react.dev/pull/5487
+
+
+Tracking:
+
+
+
+
+https://github.com/reactjs/react.dev/pull/5487
+
+
+https://github.com/facebook/create-react-app/issues/13080
+
+
+https://github.com/facebook/create-react-app/issues/13283
+
+
+
+
+
+
+This project is just the user interface not including the backend and database.
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/introduction/#feedback
+Introduction | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+
+
+Minimal - Client & Admin Dashboard
+
+
+A professional React Kit that comes with plenty of ready-to-use Material-UI components that will
+help you to build more beautiful frontend pages.
+
+
+
+
+Built with 
+MUI v5
+ with two versions 
+Next.js
+ | 
+Vite
+.
+
+
+Includes a complete design component 
+Figma
+ file to extend your project development.
+
+
+The theme is ready to change to any style you want.
+
+
+
+
+
+
+Learn more: 
+package
+
+
+
+
+Documents
+
+
+In addition to the documentation provided from Minimal you can refer to other relevant documents
+regarding the components used in this template.
+
+
+🔸MUI
+
+
+Because minimal is built on top of MUI components. You can read the documentation and use all of the
+MUI components here: 
+https://mui.com/components/
+.
+
+
+🔸3rd party libraries
+
+
+We include direct links to third-party used libraries:
+
+
+Example:
+
+
+
+
+Chart (
+https://apexcharts.com
+)
+
+
+Reference from
+
+https://minimals.cc/components/extra/chart
+
+
+
+
+
+
+Feedback
+
+
+We are always open to your feedback at 
+[email protected]
+
+
+If something is missing in the documentation, or if you found some part confusing, contact us with
+your suggestions for improvement.
+
+
+We love hearing from you!
+
+
+
+
+This project is just the user interface not including the backend and database.
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/colors/
+Colors | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Colors
+
+
+Latest
+v6.1.0
+v5
+
+
+Custom global color inside:
+
+
+
+
+src/theme/theme-config.ts
+
+
+src/theme/core/palette.ts
+
+
+
+
+
+
+Color tools
+
+
+Material color
+https://mui.com/customization/color/
+.
+Eva color
+https://colors.eva.design/
+.
+We recommend picking colors with these values for 
+Eva tool
+:
+
+
+Lighter : 
+100
+
+
+Light : 
+300
+
+
+Main : 
+500
+
+
+Dark : 
+700
+
+
+Darker : 
+900
+
+
+{
+
+
+  "primary"
+: {
+
+
+    "lighter"
+: 
+"#C8FAD6"
+,
+
+
+    "light"
+: 
+"#5BE49B"
+,
+
+
+    "main"
+: 
+"#00A76F"
+,
+
+
+    "dark"
+: 
+"#007867"
+,
+
+
+    "darker"
+: 
+"#004B50"
+,
+
+
+    "contrastText"
+: 
+"#FFFFFF"
+
+
+  },
+
+
+...
+
+
+}
+src/theme/theme-config.ts
+
+
+
+
+Reference:
+
+
+
+
+https://minimals.cc/components/foundation/colors
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/icons/
+Icons | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Icons
+
+
+
+
+Material Icon
+https://mui.com/components/material-icons/
+import
+ AdbIcon
+ from
+ '@mui/icons-material/Adb'
+;
+
+
+import
+ AddIcon
+ from
+ '@mui/icons-material/Add'
+;
+
+
+import
+ AppleIcon
+ from
+ '@mui/icons-material/Apple'
+;
+
+
+import
+ AccountCircleIcon
+ from
+ '@mui/icons-material/AccountCircle'
+;
+
+
+import
+ AirplanemodeActiveIcon
+ from
+ '@mui/icons-material/AirplanemodeActive'
+;
+
+
+ 
+
+
+function
+ App
+() {
+
+
+  return
+ (
+
+
+    <>
+
+
+      <
+AdbIcon
+ color
+=
+"action"
+ />
+
+
+      <
+AddIcon
+ color
+=
+"disabled"
+ />
+
+
+      <
+AccountCircleIcon
+ color
+=
+"error"
+ />
+
+
+      <
+AirplanemodeActiveIcon
+ color
+=
+"inherit"
+ />
+
+
+      <
+AppleIcon
+ color
+=
+"primary"
+ />
+
+
+      <
+AppleIcon
+ color
+=
+"secondary"
+ />
+
+
+    </>
+
+
+  );
+
+
+}
+
+
+
+
+Iconify Icon
+https://iconify.design/icon-sets
+import
+ Iconify
+ from
+ 'src/components/Iconify'
+;
+
+
+ 
+
+
+function
+ App
+() {
+
+
+  return
+ (
+
+
+    <>
+
+
+      <
+Iconify
+ icon
+=
+"eva:clock-fill"
+ sx
+=
+{
+{ 
+color
+: 
+'primary.main'
+ }
+}
+ />
+
+
+      <
+Iconify
+ icon
+=
+"eva:charging-fill"
+ sx
+=
+{
+{ 
+color
+: 
+'secondary.main'
+ }
+}
+ />
+
+
+      <
+Iconify
+ icon
+=
+"eva:alert-circle-fill"
+ sx
+=
+{
+{ 
+color
+: 
+'info.main'
+ }
+}
+ />
+
+
+      <
+Iconify
+ icon
+=
+"eva:color-palette-fill"
+ sx
+=
+{
+{ 
+color
+: 
+'warning.main'
+ }
+}
+ />
+
+
+      <
+Iconify
+ icon
+=
+"eva/arrow-circle-down-fill"
+ sx
+=
+{
+{ 
+color
+: 
+'error.main'
+ }
+}
+ />
+
+
+    </>
+
+
+  );
+
+
+}
+
+
+
+
+Local Icon
+import
+ SvgColor
+ from
+ 'src/components/svg-color'
+;
+
+
+ 
+
+
+function
+ App
+() {
+
+
+  return
+ (
+
+
+    <>
+
+
+      <
+SvgColor
+ src
+=
+"/assets/icons/browser-edge.svg"
+ sx
+=
+{
+{ 
+color
+: 
+'primary.main'
+ }
+}
+ />
+
+
+      <
+SvgColor
+ src
+=
+"/assets/icons/browser-edge.svg"
+ sx
+=
+{
+{ 
+color
+: 
+'secondary.main'
+ }
+}
+ />
+
+
+      <
+SvgColor
+ src
+=
+"/assets/icons/elephant.svg"
+ sx
+=
+{
+{ 
+color
+: 
+'info.main'
+ }
+}
+ />
+
+
+      <
+SvgColor
+ src
+=
+"/assets/icons/json-logo.svg"
+ sx
+=
+{
+{ 
+color
+: 
+'success.main'
+ }
+}
+ />
+
+
+      <
+SvgColor
+ src
+=
+"/assets/icons/love-camera.svg"
+ sx
+=
+{
+{ 
+color
+: 
+'warning.main'
+ }
+}
+ />
+
+
+      <
+SvgColor
+ src
+=
+"/assets/icons/shield.svg"
+ sx
+=
+{
+{ 
+color
+: 
+'error.main'
+ }
+}
+ />
+
+
+    </>
+
+
+  );
+
+
+}
+
+
+
+
+Reference:
+
+
+
+
+https://minimals.cc/components/foundation/icons
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/deployment/
+Deployment | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Deployment
+
+
+Each server has different functionality and deployment configuration.
+
+
+Make sure you have configured it correctly according to your service provider's instructions.
+
+
+We have developed several different servers to test our template before release.
+
+
+
+
+Vercel
+Guide
+Preview
+Vite.js
+Next.js
+AWS amplify
+Guide
+Preview
+Next.js
+Netlify
+Guide
+Preview
+Next.js
+Azure
+Guide
+Preview
+Next.js
+Firebase
+Guide
+Preview
+Next.js
+Cloudflare
+Guide
+Preview
+Vite.js
+Next.js
+
+
+
+
+Note:
+
+
+
+
+Make sure to add the correct environment variables from your 
+.env
+ file.
+
+
+
+
+
+
+Please add environment variables on the deployment server if required.
+
+
+
+
+Example on vercel server:
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/update/
+Update | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Update
+
+
+This section will cover the apply of the new update
+
+
+
+
+The core components when you want to upgrade will include:
+
+
+
+
+src/theme
+
+
+src/layouts
+
+
+src/components
+
+
+src/utils
+
+
+src/hooks
+
+
+
+
+Depending on your needs, you can copy components from the new version to your current version.
+
+
+Copy and overwrite only the elements you are working on.
+
+
+The components 
+here
+ are always the latest. Please check the code that we have attached.
+
+
+
+
+Let's use Git to see the changes.
+
+
+
+
+
+
+The product is built on React MUI so you can check the changes at:
+
+
+
+
+Changelog
+
+
+https://github.com/mui-org/material-ui/blob/master/CHANGELOG.md
+
+
+
+
+Compare the components you want to work with the new version so that copying and overwriting can work properly.
+
+
+
+
+Since this is a product that uses many dependencies and has many components, you will also need to manually check the components you are working on to update it.
+
+
+© All rights reserved.
+Contact
+Home
+
+URL: https://docs.minimals.cc/cdn-cgi/l/email-protection#21525451514e5355614c484f484c404d520f42421e5254434b4442551c7a6c484f484c404d7c0167534e4c01625452554e4c4453
+Email Protection | Cloudflare
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Please enable cookies.
+
+
+
+
+
+
+Email Protection
+
+
+You are unable to access this email address
+ minimals.cc
+
+
+
+
+
+
+
+
+
+
+The website from which you got to this page is protected by Cloudflare. Email addresses on that page have been hidden in order to keep them from being accessed by malicious bots. 
+You must enable Javascript in your browser in order to decode the e-mail address
+.
+
+
+If you have a website and are interested in protecting it in a similar way, you can 
+sign up for Cloudflare
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+How does Cloudflare protect email addresses on website from spammers?
+
+
+Can I sign up for Cloudflare?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Cloudflare Ray ID: 
+914f6db37d45a78a
+
+
+•
+
+
+
+      Your IP:
+      
+Click to reveal
+
+
+179.38.60.227
+
+
+•
+
+
+
+
+Performance & security by
+ 
+Cloudflare
+
+URL: https://mui.com/store/items/minimal-dashboard/
+Minimal - Client and Admin Dashboard - MUI Store
+Templates
+Design Kits
+MUI X
+Help
+Loading…
+Minimal - Client and Admin Dashboard
+Live preview
+Description
+Reviews
+Changelog
+Minimal is the perfect UI Kit to start your next project.
+
+
+Elevate your project effortlessly with our UI templates. Perfectly blending aesthetics and efficiency, they deliver an unparalleled user experience.
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+📦 
+ Package
+
+
+Standard
+
+
+Plus
+
+
+Extended
+
+
+
+
+
+
+Starter project
+
+
+(next.js, vite.js)
+
+
+✔︎
+
+
+✔︎
+
+
+✔︎
+
+
+
+
+
+
+Create React App (JavaScript)
+
+
+See how to 
+migrate
+
+
+✔︎
+
+
+✔︎
+
+
+✔︎
+
+
+
+
+
+
+Next.js (JavaScript)
+
+
+(next-app-dir)
+
+
+✔︎
+
+
+✔︎
+
+
+✔︎
+
+
+
+
+
+
+Vite.js (JavaScript)
+
+
+✔︎
+
+
+✔︎
+
+
+✔︎
+
+
+
+
+
+
+Create React App (TypeScript)
+
+
+See how to 
+migrate
+
+
+-
+
+
+✔︎
+
+
+✔︎
+
+
+
+
+
+
+Next.js (TypeScript)
+
+
+(next-app-dir)
+
+
+-
+
+
+✔︎
+
+
+✔︎
+
+
+
+
+
+
+Vite.js (TypeScript)
+
+
+-
+
+
+✔︎
+
+
+✔︎
+
+
+
+
+
+
+Design Figma file 
+preview
+
+
+-
+
+
+✔︎
+
+
+✔︎
+
+
+
+
+
+
+⚡️ 
+License
+
+
+
+
+
+
+Use in a free end product.
+
+
+✔︎
+
+
+✔︎
+
+
+✔︎
+
+
+
+
+
+
+Use in an end product that is "sold" (one or multiple paying End Users).
+
+
+-
+
+
+-
+
+
+✔︎
+
+
+
+
+
+
+
+
+👉 Learn more: 
+Package & license
+
+
+Template vs. Starter
+
+
+The 
+Starter project
+ is a lighter version that offers the core foundation, including the theme configuration, base components and the dashboard overview page.
+
+
+Features
+
+
+
+
+NEW 
+- Material UI v6
+
+
+NEW 
+- Vite.js v6
+
+
+NEW 
+- React Router v7
+
+
+NEW 
+- ESLint v9 (flat config)
+
+
+NEW 
+- Next.js v14.x (App Router version)
+
+
+70+ 
+Pages example
+
+
+100% React hooks
+
+
+React context API
+
+
+Light/dark mode
+
+
+Editors
+
+
+Apexcharts
+
+
+SWR fetching
+
+
+Dropzone upload
+
+
+Image lazy loading
+
+
+Change color theme
+
+
+React hook form + Zod
+
+
+ESLint & prettier
+
+
+Animated framer motion
+
+
+Right-to-left layout support
+
+
+Private / public routes (react router v6)
+
+
+Authentication (JWT / Firebase / Amplify / Auth0 / Supabase)
+
+
+Easy to customize
+
+
+1 year of free updates / 6 months of technical support
+
+
+Fully responsive, and works across all modern/supported browsers & devices
+
+
+
+
+Pages
+
+
+
+
+Home
+
+
+Components
+
+
+Pricing
+
+
+Payment
+
+
+Maintenance
+
+
+Coming soon
+
+
+About us
+
+
+Contact us
+
+
+Faqs
+
+
+Shop
+
+
+Product
+
+
+Checkout
+
+
+Posts
+
+
+Post
+
+
+
+
+Error
+
+
+
+
+403
+
+
+404
+
+
+500
+
+
+
+
+Auth
+
+
+
+
+Sign in
+
+
+Sign up
+
+
+Reset password
+
+
+Update password
+
+
+Verify code
+
+
+Sign in
+ (centered)
+
+
+Sign up
+ (centered)
+
+
+Reset password
+ (centered)
+
+
+Update password
+ (centered)
+
+
+Verify code
+ (centered)
+
+
+
+
+Overview
+
+
+
+
+App
+
+
+E-commerce
+
+
+Analytics
+
+
+Banking
+
+
+Booking
+
+
+File
+
+
+Course
+
+
+
+
+User
+
+
+
+
+Profile
+
+
+Cards
+
+
+List
+
+
+Create
+
+
+Edit
+
+
+Account
+
+
+
+
+Product
+
+
+
+
+List
+
+
+Details
+
+
+Create
+
+
+Edit
+
+
+
+
+Order
+
+
+
+
+List
+
+
+Details
+
+
+
+
+Invoice
+
+
+
+
+List
+
+
+Details
+
+
+Create
+
+
+Edit
+
+
+
+
+Blog
+
+
+
+
+List
+
+
+Details
+
+
+Create
+
+
+Edit
+
+
+
+
+Job
+
+
+
+
+List
+
+
+Details
+
+
+Create
+
+
+Edit
+
+
+
+
+Tour
+
+
+
+
+List
+
+
+Details
+
+
+Create
+
+
+Edit
+
+
+
+
+App
+
+
+
+
+File manager
+
+
+Mail
+
+
+Chat
+
+
+Calendar
+
+
+Kanban
+
+
+
+
+Documentation
+
+
+You can browse the 
+documentation
+.
+
+
+Built with
+
+
+You can check the 
+dependencies
+.
+
+
+Updates and support
+
+
+Purchasing a license gives you access to:
+
+
+
+
+1 year of free updates
+
+
+6 months of technical support
+
+
+
+
+Need support?
+
+
+Drop us an email at 
+support@minimals.cc
+. We're always glad to help you!
+
+
+Package type
+Standard License
+End-users 
+can't
+ be charged for.
+Read full 
+Standard License
+$69
+Standard Plus
+Standard License
+⚛️
+ 
+TypeScript source
+💎
+ 
+Figma resources
+End-users 
+can't
+ be charged for.
+Read full 
+Standard License
+$129
+Extended License
+⚛️
+ 
+TypeScript source
+💎
+ 
+Figma resources
+End-users 
+can
+ be charged for.
+Read full 
+Extended License
+$599
+Buy now
+Live preview
+15,087
+Sales
+4.95/5 
+(177 reviews)
+Quality checked by MUI team
+1 year of free updates
+6 months of technical support
+Covered by our 
+refund policy
+Support MUI's open source projects like Material UI and Base UI.
+Version
+6.3.0
+Latest release
+Jan 1, 2025
+First release
+Jan 26, 2021
+Category
+Admin & Dashboard
+Questions?
+Contact author
+Created by
+Minimal
+Try the free demo
+Learn more about "Minimal Free – React Admin Dashboard" in this free demo.
+It has a few features from the full version to let 
+you get a feel for the product.
+Get free demo
+Copyright © 2025 Material UI SAS, trading as MUI.
+Sell
+Affiliates
+Terms
+Privacy
+Collections
+License
+Help
+
+URL: https://docs.minimals.cc/environment-variables/
+Environment variables | Minimal UI
+Buy Now
+Get Update
+getting started
+Introduction
+Quick start
+Mock server
+Deployment
+Package & license
+Setup
+Figma
+theme UI
+Colors
+Typography
+Icons
+Shadows
+Css vars
+Logo
+Layout
+Navigation
+Settings
+Global
+Styles
+Config
+Components overrides
+development
+Routing
+Subfolder
+Authentication
+Environment variables
+Api calls
+Multi language
+Structure & Flow
+Dependencies
+Tailwind
+Migrate to CRA
+support
+🔵 Update
+🔴 Faqs & support
+🟣 Changelog
+v
+6.3.0
+Environment variables
+
+
+
+
+Create react app
+https://create-react-app.dev/docs/adding-custom-environment-variables/
+Use a prefix 
+REACT_APP_
+REACT_APP_MAP
+=
+
+
+REACT_APP_WEBSITE_URL
+=
+.env
+Usage
+process.
+env
+.
+REACT_APP_MAP
+;
+
+
+process.
+env
+.
+REACT_APP_WEBSITE_URL
+;
+
+
+
+
+Next.js
+https://nextjs.org/docs/api-reference/next.config.js/environment-variables
+Use a prefix 
+NEXT_PUBLIC_
+NEXT_PUBLIC_MAP
+=
+
+
+NEXT_PUBLIC_WEBSITE_URL
+=
+.env
+Usage
+process.
+env
+.
+NEXT_PUBLIC_MAP
+;
+
+
+process.
+env
+.
+NEXT_PUBLIC_WEBSITE_URL
+;
+
+
+
+
+Vite.js
+https://vitejs.dev/guide/env-and-mode.html
+Use a prefix 
+VITE_
+VITE_MAP
+=
+
+
+VITE_WEBSITE_URL
+=
+.env
+Usage
+import.
+meta
+.
+env
+.
+VITE_MAP
+;
+
+
+import.
+meta
+.
+env
+.
+VITE_WEBSITE_URL
+;
+© All rights reserved.
+Contact
+Home
+
