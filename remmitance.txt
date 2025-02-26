@@ -1,0 +1,24 @@
+IDOC Number: 0000002023371954
+
+Vendor # 0000500775
+ROMINA ZAIN LLC
+7380 W SAND LAKE RD, 500
+ORLANDO FL 328195257
+
+
+Total Amount: 257.60 USD
+
+------------------------------------------------------------------------------------------------------------------
+Document    Invoice         P/O             Invoice            Gross         Discount         WHT           Net    
+Number	    Number	    Number          Date               Amount	     Amount           Amount        Amount 
+------------------------------------------------------------------------------------------------------------------
+Paying Agent for WALT DISNEY PARKS AND RESORTS U.S.,
+
+5131255389  13322574        N/A             20250210               86.30          0.00          0.00         86.30
+MARTINEZ VERT 754314134403 80010384 020725-020825
+5131788030  0136078         N/A             20250211               28.80          0.00          0.00         28.80
+BORDO, MARIA S PWCG81272627 TA 02-11-2025
+5131968086  13322950        N/A             20250210              142.50          0.00          0.00        142.50
+BAHAMONDE,JUA 754124050299 80010403 020325-020925
+
+                                  --End of Report--
